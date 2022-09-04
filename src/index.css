@@ -3,12 +3,15 @@ html{
   font-size: 62.5%;
 }
 
+/* background color used to be
+   background: #022c43; */
+
 body {
   margin: 0;
   /* Helvetica is the main font, sans serif is backup font */
-  font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+  font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: #444;
-  background: #022c43;
+  background: #2B3784;
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
