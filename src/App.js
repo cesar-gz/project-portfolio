@@ -14,7 +14,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="https://cesar-gz.github.io/portfolio" element={<Home />} />
+        <Route path="https://cesar-gz.github.io/project-portfolio" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
       </Route>
     </Routes>
