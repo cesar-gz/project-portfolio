@@ -1,7 +1,7 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/alien-invasion.png",
+            "cover": "/portfolio/1/troll.jpg",
             "title": "Alien-Invasion",
             "description" : "Play Alien Invasion. Created with Python",
             "url": "https://github.com/cesar-gz/Alien-Invasion"
