@@ -1,6 +1,7 @@
-import { useEffect, useRef } from 'react'
+import { useRef } from 'react'
+import { useEffect } from 'react'
 import gsap from 'gsap-trial'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
+//import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 import LogoS from '../../../assets/images/titans5.png'
 import './index.scss'
 
@@ -12,7 +13,7 @@ const Logo = () => {
     //const tl = useRef(gsap.timeline());
 
     useEffect(() => {
-        gsap.registerPlugin(DrawSVGPlugin)
+        //gsap.registerPlugin(DrawSVGPlugin)
 
         gsap
             //tl.current
@@ -37,7 +38,7 @@ const Logo = () => {
                 duration: 4,
             }
         )
-    }, [])
+    }, []) 
 
     return(
         <div className="logo-container" ref={bgRef}>
