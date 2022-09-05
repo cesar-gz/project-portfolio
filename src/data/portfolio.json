@@ -1,15 +1,15 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/one.png",
+            "cover": "/portfolio/1/alien-invasion.png",
             "title": "Alien-Invasion",
             "description" : "Play Alien Invasion. Created with Python",
             "url": "https://github.com/cesar-gz/Alien-Invasion"
         },
         {
-            "cover": "/portfolio/1/one.png",
+            "cover": "/portfolio/1/RR1.png",
             "title": "Restaurant Roulette",
-            "description" : "Restaurant Roulette provides restaurant reviews, recommendations, and a spin wheel to help you decide what restaurant to eat at",
+            "description" : "Restaurant Roulette provides restaurant reviews, recommendations, and a spin wheel to help you decide what restaurant to eat at. Users can create, review, update, and delete recommendations.",
             "url": "https://github.com/cesar-gz/RestaurantRoulette"
         },
         {
