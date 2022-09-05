@@ -27,13 +27,16 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    About me paragraph 1.
+                    I have experience with Python, C++, Java, C, Assembly, Scrum, HTML, CSS, and Javascript. I have used Git, GitHub, React, Node.js,
+                    MongoDB, R, PHP, and MySQL. I can operate Windows, Linux, VSCode, Insomnia, Google Sheets, and Microsoft Excel.
                 </p>
                 <p>
-                    About me paragraph 2.
+                    I have five projects in my Portfolio page, also available on GitHub.
+                    I have practiced using Scrum methodology with class mates to produce a web application. 
+                    I have completed programming assignments from my classes and uploaded them into GitHub as well.
                 </p>
                 <p>
-                    About my paragraph 3.
+                    In my free time I like to do programming project tutortials and play outdoor volleyball.
                 </p>
             </div>
 

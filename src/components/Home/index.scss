@@ -22,8 +22,9 @@
         // you can try editing the 'content" to different text if you want to keep this
         // &:: after applies to all this too
 
+        // uncommenting content will return the <h1> on the page
         &::before{
-            content: '<h1>';
+            //content: '<h1>';
             font-family: 'La Belle Aurore';
             color: #ffd700;
             font-size: 18px;
@@ -34,7 +35,7 @@
         }
 
         &::after{
-            content: '<h1/>';
+            //content: '<h1/>';
             font-family: 'La Belle Aurore';
             color:#ffd700;
             font-size: 18px;
