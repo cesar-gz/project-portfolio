@@ -1,31 +1,31 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/alien-invasion.png",
+            "cover": "project-portfolio/portfolio/1/alien-invasion.png",
             "title": "Alien-Invasion",
             "description" : "Play Alien Invasion. Created with Python",
             "url": "https://github.com/cesar-gz/Alien-Invasion"
         },
         {
-            "cover": "/portfolio/1/RR1.png",
+            "cover": "project-portfolio/portfolio/1//RR1.png",
             "title": "Restaurant Roulette",
             "description" : "Restaurant Roulette provides restaurant reviews, recommendations, and a spin wheel to help you decide what restaurant to eat at. Users can create, review, update, and delete recommendations.",
             "url": "https://github.com/cesar-gz/RestaurantRoulette"
         },
         {
-            "cover": "/portfolio/1/coming-soon.png",
+            "cover": "project-portfolio/portfolio/1/coming-soon.png",
             "title": "Project 3 Coming Soon",
             "description" : "Compiler using C++, includes lexer, parser, and an intermediate code generator",
             "url": "http://google.com"
         },
         {
-            "cover": "/portfolio/1/coming-soon.png",
+            "cover": "project-portfolio/portfolio/1/coming-soon.png",
             "title": "Project 4 Coming Soon",
             "description" : "Phone application using Java, creates random usernames and passwords based on user present themes",
             "url": "http://google.com"
         },
         {
-            "cover": "/portfolio/1/coming-soon.png",
+            "cover": "project-portfolio/portfolio/1/coming-soon.png",
             "title": "Project 5 Coming Soon",
             "description" : "Shopping Cart using PHP andMySQL",
             "url": "http://google.com"
