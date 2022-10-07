@@ -13,10 +13,10 @@
             "url": "https://github.com/cesar-gz/RestaurantRoulette"
         },
         {
-            "cover": "project-portfolio/portfolio/1/coming-soon.png",
-            "title": "Project 3 Coming Soon",
-            "description" : "Compiler using C++, includes lexer, parser, and an intermediate code generator",
-            "url": "http://google.com"
+            "cover": "project-portfolio/portfolio/1/lexer.png",
+            "title": "Compiler",
+            "description" : "Compiler using Python. Currently the lexer is done. The parser and an intermediate code generator is in progress.",
+            "url": "https://github.com/Angel-Armendariz/CPSC323_Project_1"
         },
         {
             "cover": "project-portfolio/portfolio/1/coming-soon.png",
@@ -25,10 +25,10 @@
             "url": "http://google.com"
         },
         {
-            "cover": "project-portfolio/portfolio/1/coming-soon.png",
-            "title": "Project 5 Coming Soon",
+            "cover": "project-portfolio/portfolio/1/shopping-cart.png",
+            "title": "Forum, Shop, & Checkout Cart",
             "description" : "Shopping Cart using PHP andMySQL",
-            "url": "http://google.com"
+            "url": "https://github.com/cesar-gz/Shopping-cart"
         }
     ]
 }

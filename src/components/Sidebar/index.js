@@ -51,7 +51,7 @@ const Sidebar = () => (
                    rel="noreferrer" 
                    href="https://www.linkedin.com/in/cesar-gutierrez-c/"
                 >
-                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faLinkedin} color="#fff" />
                 </a>
             </li>
 
@@ -60,7 +60,7 @@ const Sidebar = () => (
                    rel="noreferrer" 
                    href="https://github.com/cesar-gz"
                 >
-                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faGithub} color="#fff" />
                 </a>
             </li>
 
@@ -69,7 +69,7 @@ const Sidebar = () => (
                    rel="noreferrer" 
                    href="skype:live:.cid.9e1cfdd2ab6bfd6c"
                 >
-                    <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faSkype} color="#fff" />
                 </a>
             </li>
 
