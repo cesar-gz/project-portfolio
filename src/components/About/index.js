@@ -3,7 +3,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGitAlt, faPython, faJava, faReact, faRebel } from '@fortawesome/free-brands-svg-icons'
+import { faGitAlt, faPython, faJava, faReact, faPhp } from '@fortawesome/free-brands-svg-icons'
 import { faC } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
@@ -27,16 +27,18 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    I have experience with Python, C++, Java, C, Assembly, Scrum, HTML, CSS, and Javascript. I have used Git, GitHub, React, Node.js,
-                    MongoDB, R, PHP, and MySQL. I can operate Windows, Linux, VSCode, Insomnia, Google Sheets, and Microsoft Excel.
+                    I am a senior student at California State Fullerton. I am expected to graduate in December 2023. I have experience with
+                    Python, C++, PHP, MySQL, Assembly, R, HTML, CSS, Javascript, Pytest and the Robot framework. I have used Git, GitHub, React, 
+                    MongoDB, and Scrum. I can operate Windows, Linux, Ubuntu, VSCode, Insomnia, Google Sheets, and Microsoft Excel.
                 </p>
                 <p>
-                    I have five projects in my Portfolio page, also available on GitHub.
-                    I have practiced using Scrum methodology with class mates to produce a web application. 
-                    I have completed programming assignments from my classes and uploaded them into GitHub as well.
+                    I have taken many computer classes like: Operating Systems, Compilers and Languages, Databases and
+                    Structures, Python, C++, Assembly, Javascript, Intro to Software Engineering, Software Testing, Data Science, Computer Security and
+                    Computer Ethics. I am currently taking Software Design, Algorithm Engineering, and Computer Communications.
                 </p>
                 <p>
-                    In my free time I like to do programming project tutortials and play outdoor volleyball.
+                    I like creating and working on web applications when I can. In my free time I work on leetcode problems, learn how to develop new
+                    projects, or spend time with friends playing beach or outdoor volleyball.
                 </p>
             </div>
 
@@ -55,7 +57,7 @@ const About = () => {
                         <FontAwesomeIcon icon = {faReact} color="#5ED4F4" />
                     </div>
                     <div className="face5">
-                        <FontAwesomeIcon icon = {faRebel} color="#DD4E1E" />
+                        <FontAwesomeIcon icon = {faPhp} color="#DD4E1E" />
                     </div>
                     <div className="face6">
                         <FontAwesomeIcon icon = {faC} color="#ADD8E6" />

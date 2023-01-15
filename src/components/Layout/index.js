@@ -12,14 +12,14 @@ const Layout = () => {
     <div className="App">
         <Sidebar />
         <div className='page'>
-            <span className='tags top-tags'>Portfolio Project Website</span>
+            <span className='tags top-tags'>My Portfolio Project Website</span>
 
             <Outlet />
 
             <span className='tags bottom-tags'>
             designed by Cesar Gutierrez
             <br />
-            <span className='bottom-tag-html'>Copyright 2022</span>
+            <span className='bottom-tag-html'>Copyright 2023</span>
 
             </span>
         </div>

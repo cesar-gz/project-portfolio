@@ -9,25 +9,25 @@
         {
             "cover": "project-portfolio/portfolio/1//RR1.png",
             "title": "Restaurant Roulette",
-            "description" : "Restaurant Roulette provides restaurant reviews, recommendations, and a spin wheel to help you decide what restaurant to eat at. Users can create, review, update, and delete recommendations.",
+            "description" : "Web app that displays restaurant reviews & google map locations. Users can create, review, update, and delete recommendations.",
             "url": "https://github.com/cesar-gz/RestaurantRoulette"
         },
         {
             "cover": "project-portfolio/portfolio/1/lexer.png",
             "title": "Compiler",
-            "description" : "Compiler using Python. Currently the lexer is done. The parser and an intermediate code generator is in progress.",
+            "description" : "Compiler on a terminal for a psuedo language called Rat22F. Includes a lexer and parser. Created with Python.",
             "url": "https://github.com/Angel-Armendariz/CPSC323_Project_1"
         },
         {
-            "cover": "project-portfolio/portfolio/1/coming-soon.png",
-            "title": "Project 4 Coming Soon",
-            "description" : "Phone application using Java, creates random usernames and passwords based on user present themes",
-            "url": "http://google.com"
+            "cover": "project-portfolio/portfolio/1/pgdraft2.png",
+            "title": "Password Generator",
+            "description" : "Web application using JavaScript and React. Has buttons that create randomized passwords.",
+            "url": "https://cesar-gz.github.io/passwordGenerator/"
         },
         {
             "cover": "project-portfolio/portfolio/1/shopping-cart.png",
             "title": "Forum, Shop, & Checkout Cart",
-            "description" : "Shopping Cart using PHP andMySQL",
+            "description" : "Web application that allows users to create an account, login, shop, checkout, and logout. Created using PHP and MySQL",
             "url": "https://github.com/cesar-gz/Shopping-cart"
         }
     ]
