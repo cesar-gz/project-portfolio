@@ -1,22 +1,16 @@
 {
     "portfolio": [
         {
-            "cover": "project-portfolio/portfolio/1/alien-invasion.png",
-            "title": "Alien-Invasion",
-            "description" : "Play Alien Invasion. Created with Python",
-            "url": "https://github.com/cesar-gz/Alien-Invasion"
+            "cover": "project-portfolio/portfolio/1/radioplayer.png",
+            "title": "Titan Radio Live Music Player",
+            "description" : "Made a music player that contains live music, DJ Info, Show Info, Bio info, timing, and progress bar. Plays 24/7 on my college's campus radio. Made together with Angel Armendariz at Titan Radio. Uses Javascript, HTML, and CSS.",
+            "url": "https://titanradio.org/live/"
         },
         {
-            "cover": "project-portfolio/portfolio/1//RR1.png",
-            "title": "Restaurant Roulette",
-            "description" : "Web app that displays restaurant reviews & google map locations. Users can create, review, update, and delete recommendations.",
-            "url": "https://github.com/cesar-gz/RestaurantRoulette"
-        },
-        {
-            "cover": "project-portfolio/portfolio/1/lexer.png",
-            "title": "Compiler",
-            "description" : "Compiler on a terminal for a psuedo language called Rat22F. Includes a lexer and parser. Created with Python.",
-            "url": "https://github.com/Angel-Armendariz/CPSC323_Project_1"
+            "cover": "project-portfolio/portfolio/1/sharks.png",
+            "title": "The Evolution of Sharks",
+            "description" : "(WIP, Expected to be finished Mid Semester) Website that will be turned in for my Earth History Lab Final. Made with React.",
+            "url": "https://cesar-gz.github.io/Sharks/"
         },
         {
             "cover": "project-portfolio/portfolio/1/pgdraft2.png",
@@ -29,6 +23,30 @@
             "title": "Forum, Shop, & Checkout Cart",
             "description" : "Web application that allows users to create an account, login, shop, checkout, and logout. Created using PHP and MySQL",
             "url": "https://github.com/cesar-gz/Shopping-cart"
+        },
+        {
+            "cover": "project-portfolio/portfolio/1/lexer.png",
+            "title": "Compiler",
+            "description" : "Compiler on a terminal for a psuedo language called Rat22F. Includes a lexer and parser. Created with Python.",
+            "url": "https://github.com/Angel-Armendariz/CPSC323_Project_1"
+        },
+        {
+            "cover": "project-portfolio/portfolio/1/pport.png",
+            "title": "My Project Portfolio Website",
+            "description" : "This website that was made with React, SCSS, and FontAwesome.",
+            "url": "https://cesar-gz.github.io/project-portfolio/"
+        },
+        {
+            "cover": "project-portfolio/portfolio/1//RR1.png",
+            "title": "Restaurant Roulette",
+            "description" : "Web app that displays restaurant reviews & google map locations. Users can create, review, update, and delete recommendations.",
+            "url": "https://github.com/cesar-gz/RestaurantRoulette"
+        },
+        {
+            "cover": "project-portfolio/portfolio/1/alien-invasion.png",
+            "title": "Alien-Invasion",
+            "description" : "Play Alien Invasion. Created with Python",
+            "url": "https://github.com/cesar-gz/Alien-Invasion"
         }
     ]
 }

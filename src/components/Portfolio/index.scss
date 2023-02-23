@@ -42,7 +42,7 @@
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
             background: linear-gradient(
                 180deg,
-                rgba(0,0,0,0.2) 0,
+                rgba(4, 1, 44, 0.806) 0,
                 rgba(0,0,0,1)
             );
             bottom: -70px;
@@ -51,10 +51,11 @@
         .title{
             margin-bottom: 0;
             margin-top: 0;
-            color: #fff;
+            color: #f4f00c;
             font-size: 24px;
             font-weight: 500;
             line-height: 24px;
+            text-align: center;
         }
 
         .description{
@@ -62,6 +63,7 @@
             margin-bottom: 5px;
             color: #fff;
             font-weight: 00;
+            text-align: center;
         }
 
         .btn{
@@ -88,7 +90,7 @@
 
         &:after{
             content: "";
-            background: linear-gradient(180deg, #447BBE, #000);
+            background: linear-gradient(180deg, rgba(4, 1, 44, 0.806), #000);
             position: absolute;
             left: 0;
             right: 0;
