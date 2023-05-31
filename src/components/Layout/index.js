@@ -2,11 +2,6 @@ import { Outlet } from 'react-router-dom'
 import Sidebar from '../Sidebar'
 import './index.scss';
 
-// In the <span className='bottom-tag-html' > x </span>
-// x is the actual text you want to edit later so that the layout makes sense
-// x = &lt;body&gt; y = &lt;html&gt;
-//from tutortial before I changed it
-
 const Layout = () => {
     return (
     <div className="App">

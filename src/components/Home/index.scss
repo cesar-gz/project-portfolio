@@ -7,6 +7,7 @@
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
+        letter-spacing: 3px;
     }
 
     h1{
@@ -57,7 +58,7 @@
     }
 
     h2{
-        color: #447BBE;
+        color: rgb(228, 91, 101);
         margin-top: 20px;
         font-weight: 400;
         font-size: 21px;
@@ -76,6 +77,7 @@
         padding: 10px 18px;
         border: 1px solid #ffd700;
         margin-top: 25px;
+        margin-right: 20px;
         float: left;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
@@ -85,4 +87,18 @@
             color: #333;
         }
     }
+}
+
+@keyframes buttonPulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }

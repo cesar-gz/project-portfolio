@@ -2,13 +2,11 @@ $primary-color: #ffd700;
 //$primary-color: #B11313; spiderman Red
 // #2B3784 spiderman navy blue
 // #447BBE spiderman neutral cool blue
-// #DF1F2D spiderman light red pink 
+// #DF1F2D spiderman light red pink
 
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
 
-//Main fonts for the webpage
-//note to self: find cool fonts. Spiderman? Venom? Professional I guess . . .
 //if you make changes to fonts, update the index.css portion of the font family too
 @font-face{
     font-family: 'Helvetica Neue';
@@ -24,6 +22,7 @@ $primary-color: #ffd700;
     font-family: 'Coolvetica';
     src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
+
 
 //default font for entering text in basic areas
 input,

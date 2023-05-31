@@ -31,12 +31,6 @@
             "url": "https://github.com/Angel-Armendariz/CPSC323_Project_1"
         },
         {
-            "cover": "project-portfolio/portfolio/1/pport.png",
-            "title": "My Project Portfolio Website",
-            "description" : "This website that was made with React, SCSS, and FontAwesome.",
-            "url": "https://cesar-gz.github.io/project-portfolio/"
-        },
-        {
             "cover": "project-portfolio/portfolio/1//RR1.png",
             "title": "Restaurant Roulette",
             "description" : "Web app that displays restaurant reviews & google map locations. Users can create, review, update, and delete recommendations.",
