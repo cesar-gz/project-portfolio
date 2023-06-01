@@ -49,9 +49,7 @@ const Contact = () => {
                     />
                 </h1>
                 <p>
-                    I am interested in internship opportunities, especially ones where I can be hired after
-                    graduating college. However, if you have other requests or questions, feel free to contact
-                    me using the form below.
+                    Feel free to reach out if you're looking for a developer, have a question, or want to connect.
                 </p>
                 <div className='contact-form'>
                     <form ref={form} onSubmit={sendEmail}>
@@ -103,7 +101,7 @@ const Contact = () => {
                 <MapContainer center={[33.880905, -117.885398]} zoom={13}>
                     <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                     <Marker position={[33.880905, -117.885398]}>
-                        <Popup>I study here, and I like drinking monster energy drinks :) </Popup>
+                        <Popup>I study here and enjoy meeting people here. </Popup>
                     </Marker>
                 </MapContainer>
             </div>

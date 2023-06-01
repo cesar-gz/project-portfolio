@@ -1,46 +1,46 @@
 {
     "portfolio": [
         {
+            "cover": "project-portfolio/portfolio/1/coming-soon.png",
+            "title": "Business Review Website",
+            "description" : "Create, Review, Update, and Delete reviews. Built with React.",
+            "url": "https://amazonswcollab.github.io/OpenDoors/",
+            "url2": "https://github.com/AmazonSWCollab/OpenDoors"
+        },
+        {
             "cover": "project-portfolio/portfolio/1/radioplayer.png",
-            "title": "Titan Radio Live Music Player",
-            "description" : "Made a music player that contains live music, DJ Info, Show Info, Bio info, timing, and progress bar. Plays 24/7 on my college's campus radio. Made together with Angel Armendariz at Titan Radio. Uses Javascript, HTML, and CSS.",
-            "url": "https://titanradio.org/live/"
+            "title": "Music Player",
+            "description" : "Player for CSUF's Radio Station. Built with JS, HTML, and CSS.",
+            "url": "https://titanradio.org/live/",
+            "url2": "https://github.com/Angel-Armendariz/TitanRadioLivePlayer"
         },
         {
             "cover": "project-portfolio/portfolio/1/sharks.png",
-            "title": "The Evolution of Sharks",
-            "description" : "(WIP, Expected to be finished Mid Semester) Website that will be turned in for my Earth History Lab Final. Made with React.",
-            "url": "https://cesar-gz.github.io/Sharks/"
+            "title": "Shark Website",
+            "description" : "Website on the evolution of Sharks. Built with React.",
+            "url": "https://cesar-gz.github.io/Sharks/",
+            "url2": "https://github.com/cesar-gz/Sharks"
         },
         {
             "cover": "project-portfolio/portfolio/1/pgdraft2.png",
-            "title": "Password Generator",
-            "description" : "Web application using JavaScript and React. Has buttons that create randomized passwords.",
-            "url": "https://cesar-gz.github.io/passwordGenerator/"
+            "title": "Password Web App",
+            "description" : "Web app that creates randomized passwords. Built with React.",
+            "url": "https://cesar-gz.github.io/passwordGenerator/",
+            "url2": "https://github.com/cesar-gz/passwordGenerator"
         },
         {
             "cover": "project-portfolio/portfolio/1/shopping-cart.png",
-            "title": "Forum, Shop, & Checkout Cart",
-            "description" : "Web application that allows users to create an account, login, shop, checkout, and logout. Created using PHP and MySQL",
-            "url": "https://github.com/cesar-gz/Shopping-cart"
-        },
-        {
-            "cover": "project-portfolio/portfolio/1/lexer.png",
-            "title": "Compiler",
-            "description" : "Compiler on a terminal for a psuedo language called Rat22F. Includes a lexer and parser. Created with Python.",
-            "url": "https://github.com/Angel-Armendariz/CPSC323_Project_1"
-        },
-        {
-            "cover": "project-portfolio/portfolio/1//RR1.png",
-            "title": "Restaurant Roulette",
-            "description" : "Web app that displays restaurant reviews & google map locations. Users can create, review, update, and delete recommendations.",
-            "url": "https://github.com/cesar-gz/RestaurantRoulette"
+            "title": "Forum and Shop Website",
+            "description" : "Website with forum and shop. Built with PHP and MySQL.",
+            "url" : "https://youtube.com",
+            "url2": "https://github.com/cesar-gz/Shopping-cart"
         },
         {
             "cover": "project-portfolio/portfolio/1/alien-invasion.png",
-            "title": "Alien-Invasion",
-            "description" : "Play Alien Invasion. Created with Python",
-            "url": "https://github.com/cesar-gz/Alien-Invasion"
+            "title": "Alien-Invasion Game",
+            "description" : "School Project to learn Python. Built with Pygame.",
+            "url" : "https://youtube.com",
+            "url2": "https://github.com/cesar-gz/Alien-Invasion"
         }
     ]
 }

@@ -35,8 +35,13 @@ const Portfolio = () => {
                                     <h4 className="description">{port.description}</h4>
                                     <button
                                         className="btn"
+                                        style={{marginRight:'7px', marginLeft:'70px'}}
                                         onClick={() => window.open(port.url)}
                                     >View</button>
+                                    <button
+                                        className="btn"
+                                        onClick={() => window.open(port.url2)}
+                                    >GitHub</button>
                                 </div>
                             </div>
                         )

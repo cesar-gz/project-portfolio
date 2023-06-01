@@ -38,32 +38,36 @@
             position: absolute;
             width: 100%;
             z-index: 3;
-            padding: 10px 20px;
+            padding: 10px 1px;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
             background: linear-gradient(
                 180deg,
-                rgba(4, 1, 44, 0.806) 0,
-                rgba(0,0,0,1)
+                #2b2a27,
+                #333
             );
             bottom: -70px;
         }
 
         .title{
+            font-family: 'Coolvetica';
             margin-bottom: 0;
             margin-top: 0;
-            color: #f4f00c;
-            font-size: 24px;
-            font-weight: 500;
+            color:#ffd700;
+            font-size: 22px;
             line-height: 24px;
             text-align: center;
+            letter-spacing: 1px;
         }
 
         .description{
-            font-size: 14px;
+            font-size: 18px;
             margin-bottom: 5px;
-            color: #fff;
-            font-weight: 00;
+            color: #ffffff;
             text-align: center;
+            font-family: 'Coolvetica';
+            font-weight: 100;
+            letter-spacing: 1px;
+
         }
 
         .btn{
@@ -78,7 +82,7 @@
             color: #fff;
             background: transparent;
             text-transform: uppercase;
-            font-weight: 700;
+            font-weight: 100;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
             cursor: pointer;
         }
@@ -86,11 +90,12 @@
         .btn:hover{
             transform: translateY(-3px);
             background: #ffd700;
+            color: #333;
         }
 
         &:after{
             content: "";
-            background: linear-gradient(180deg, rgba(4, 1, 44, 0.806), #000);
+            background: linear-gradient(180deg, #dabd1a, #000);
             position: absolute;
             left: 0;
             right: 0;
@@ -104,12 +109,16 @@
         }
 
         &:hover:after{
-            opacity: 0.85;
+            opacity: 0.95;
         }
 
         &:hover .content{
-            bottom: 0;
+            bottom: 75px;
             background: transparent;
+        }
+
+        &:hover .title{
+            color: #ffffff;
         }
     }
 

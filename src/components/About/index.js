@@ -26,20 +26,27 @@ const About = () => {
                         idx={15}
                     />
                 </h1>
-                <p>
-                    I am a senior student at California State Fullerton. I am expected to graduate in December 2023. I have experience with
-                    Python, C++, PHP, MySQL, Assembly, R, HTML, CSS, Javascript, Pytest and the Robot framework. I have used Git, GitHub, React, 
-                    MongoDB, and Scrum. I can operate Windows, Linux, Ubuntu, VSCode, Insomnia, Google Sheets, and Microsoft Excel.
+                <button className="flat-button" onClick={() => window.open('https://youtube.com')}>My Resume</button>
+                <p style={{color:'rgb(228, 91, 101)'}}>
+                    As I've grown as a developer I have learned a lot from my mistakes, mentors, professors, and peers.
+                    I'm eager to learn new skills, improve my current skills, and help others when I can.
                 </p>
-                <p>
-                    I have taken many computer classes like: Operating Systems, Compilers and Languages, Databases and
-                    Structures, Python, C++, Assembly, Javascript, Intro to Software Engineering, Software Testing, Data Science, Computer Security and
-                    Computer Ethics. I am currently taking Software Design, Algorithm Engineering, and Computer Communications.
-                </p>
-                <p>
-                    I like creating and working on web applications when I can. In my free time I work on leetcode problems, learn how to develop new
-                    projects, or spend time with friends playing beach or outdoor volleyball.
-                </p>
+                <p style={{color:'rgb(228, 91, 101)'}}>I can use:</p>
+                <ul>
+                    <p>Git, GitHub, React, MongoDB, Scrum, and Slack.</p>
+                    <p>Windows, Linux, Ubuntu, VSCode, ChatGPT, PHP and MySQL.</p>
+                </ul>
+                    <p style={{color:'rgb(228, 91, 101)'}}>I have taken classes on:</p>
+                <ul>
+                    <p>Javascript, Python, C++, and Assembly.</p>
+                    <p>Data Structures and Algorithm Engineering.</p>
+                    <p>Software Design, Testing and Engineering.</p>
+                    <p>Compilers, Operating Systems, Computer Networks, and Databases.</p>
+                </ul>
+                    <p style={{color:'rgb(228, 91, 101)'}}>I am taking these classes in Fall 2023:</p>
+                <ul>
+                    <p>Software Process, Mobile App Development, Senior Capstone Project, and Artificial Intelligence.</p>
+                </ul>
             </div>
 
             <div className="stage-cube-cont">
