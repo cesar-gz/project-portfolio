@@ -36,7 +36,7 @@ const Home = () => {
                 idx={19}/>
                 </h1>
                 <h2>Computer Science Student, CSUF December 2023</h2>
-                <Link to="/portfolio" className='flat-button' style={{ animation: 'buttonPulse 2s infinite', background: '#181818'}}>MY PORTFOLIO</Link>
+                <Link to="/portfolio" className='flat-button' style={{ animation: 'buttonPulse 2s infinite'}}>MY PORTFOLIO</Link>
                 <Link to="/about" className='flat-button'>ABOUT ME</Link>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
