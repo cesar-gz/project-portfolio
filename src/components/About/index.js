@@ -2,6 +2,7 @@ import './index.scss'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
+import { Helmet } from "react-helmet"
 
 
 const About = () => {
@@ -15,6 +16,11 @@ const About = () => {
 
     return(
         <>
+        <Helmet>
+            <script src="DJSchedule.js"></script>
+            <script src="timer.js"></script>
+        </Helmet>
+
         <div className = "container about-page">
             <div className = "text-zone">
                 <h1>
@@ -48,7 +54,64 @@ const About = () => {
                 </ul>
             </div>
 
+            <div className='player'>
+                <div className='player_inner'>
+                    <div id="scroll-container">
+                    <h3 className="scroll-text" id="live">Now Playing</h3>
+                </div>
+                <div className='player_inner__middle'>
+                    <div className='cube'>          
+                    <div className='cube_inner'>
+                        <div id="DJshowLogo" className='cube_inner__front'>
+                        <div className='bars'>
+                            <div className='bars_bar'></div>
+                            <div className='bars_bar'></div>
+                            <div className='bars_bar'></div>
+                            <div className='bars_bar'></div>
+                            <div className='bars_bar'></div>
+                            <div className='bars_bar'></div>
+                            <div className='bars_bar'></div>
+                            <div className='bars_bar'></div>
+                            <div className='bars_bar'></div>
+                            <div className='bars_bar'></div>
+                        </div>
+                        <div className='details'>
+                            <div className='details_album'></div>
+                            
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div className='player_inner__bottom'>
+                    <button className="button" id="DJ_button">
+                    <h1 id="bio">DJ artist</h1>
+                    </button>
+                    <div id="myModal" className="modal">
+                    <div className="modal-content">
+                        <span className="close">&times;</span>
+                        <img className="DJimg" src="https://titanradio.org/wp-content/uploads/2021/10/djTeal.png" alt="djPlayer"/>
+                        <h1 id="DJname">DJ Name</h1>
+                        <p id="DJbio">DJ Bio</p>
+                        <p id="DJshowBio">DJshowBio</p>
+                    </div>
+                    </div>           
+                    <div className='playbar'>
+                    <div id='playbar_inner'></div>
+                    <div className='playbar_left'>
+                        <div id="songTimer"></div>
+                    </div>
+                    <div className='playbar_right'>
+                        <span>1:00:00</span>
+                    </div>
+                    </div>
+                    {/**<embed><script src="https://embed.radio.co/player/d1a002c.js"></script></embed>*/}
+                </div>
+                </div>
+            </div>
+
         </div>
+        
         <Loader type="pacman" />
         </>
     )
