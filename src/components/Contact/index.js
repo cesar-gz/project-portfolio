@@ -42,7 +42,7 @@ const Contact = () => {
             <div className='container contact-page'>
                 <div className='text-zone'>
                 <h1>
-                    <AnimatedLetters 
+                    <AnimatedLetters
                     letterClass={letterClass}
                     strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
                     idx={15}
@@ -50,6 +50,7 @@ const Contact = () => {
                 </h1>
                 <p>
                     Feel free to reach out if you're looking for a developer, have a question, or want to connect.
+                    I'm usually at California State University Fullerton studying in the library.
                 </p>
                 <div className='contact-form'>
                     <form ref={form} onSubmit={sendEmail}>
@@ -58,23 +59,23 @@ const Contact = () => {
                                 <input type="text" name="name" placeholder="Name" required />
                             </li>
                             <li className='half'>
-                                <input 
-                                type="email" 
-                                name="email" 
-                                placeholder="Email" 
-                                required 
+                                <input
+                                type="email"
+                                name="email"
+                                placeholder="Email"
+                                required
                                 />
                             </li>
                             <li>
-                                <input 
-                                placeholder="Subject" 
-                                type="text" 
-                                name="subject" 
-                                required 
+                                <input
+                                placeholder="Subject"
+                                type="text"
+                                name="subject"
+                                required
                                 />
                             </li>
                             <li>
-                                <textarea 
+                                <textarea
                                 placeholder="Message"
                                 name="message"
                                 required>
@@ -95,7 +96,7 @@ const Contact = () => {
                 <br />
                 800 N State College Blvd,<br />
                 Fullerton, CA 92831 <br />
-                <span>cesar7720g@gmail.com</span>
+                <span>cesarg7@csu.fullerton.edu</span>
             </div>
             <div className='map-wrap'>
                 <MapContainer center={[33.880905, -117.885398]} zoom={13}>
