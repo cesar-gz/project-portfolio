@@ -2,13 +2,12 @@ import './index.scss'
 import Timer from './timer'
 import Playbar from './playbar'
 import DJSchedule from './DJSchedule'
+//import RadioPlayer from './radio'
 
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 
-//<script src="DJSchedule.js"></script>
-//<embed><script src="https://embed.radio.co/player/d1a002c.js"></script></embed>
 
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -18,14 +17,6 @@ const About = () => {
         setTimeout(() => {
             return setLetterClass('text-animate-hover')
         }, 3000)
-
-        const script = document.createElement('script');
-        script.src = "timer.js";
-        script.async = true;
-        document.body.appendChild(script);
-        return () => {
-          document.body.removeChild(script);
-        }
 
     }, [])
 
@@ -50,7 +41,7 @@ const About = () => {
                   <p style={{color:'rgb(228, 91, 101)'}}>I can use:</p>
                   <ul>
                       <p>Git, GitHub, React, MongoDB, Scrum, Trello and Slack.</p>
-                      <p>Windows, Linux, Ubuntu, VSCode, ChatGPT, PHP and MySQL.</p>
+                      <p>Windows, Linux, Ubuntu, VSCode, ChatGPT, WordPress, PHP and MySQL.</p>
                   </ul>
                       <p style={{color:'rgb(228, 91, 101)'}}>I have taken classes on:</p>
                   <ul>
@@ -117,6 +108,7 @@ const About = () => {
                           <span>1:00:00</span>
                         </div>
                       </div>
+                      {/*<RadioPlayer />*/}
                     </div>
                   </div>
                 </div>
