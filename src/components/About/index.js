@@ -1,12 +1,13 @@
 import './index.scss'
-import './timer.js'
+import Timer from './timer'
+import Playbar from './playbar'
+import DJSchedule from './DJSchedule'
 
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 
 //<script src="DJSchedule.js"></script>
-//<script src="timer.js"></script>
 //<embed><script src="https://embed.radio.co/player/d1a002c.js"></script></embed>
 
 const About = () => {
@@ -48,7 +49,7 @@ const About = () => {
                   </p>
                   <p style={{color:'rgb(228, 91, 101)'}}>I can use:</p>
                   <ul>
-                      <p>Git, GitHub, React, MongoDB, Scrum, and Slack.</p>
+                      <p>Git, GitHub, React, MongoDB, Scrum, Trello and Slack.</p>
                       <p>Windows, Linux, Ubuntu, VSCode, ChatGPT, PHP and MySQL.</p>
                   </ul>
                       <p style={{color:'rgb(228, 91, 101)'}}>I have taken classes on:</p>
@@ -103,12 +104,14 @@ const About = () => {
                           <h1 id="DJname">DJ Name</h1>
                           <p id="DJbio">DJ Bio</p>
                           <p id="DJshowBio">DJshowBio</p>
+                          <DJSchedule />
                         </div>
                       </div>
                       <div className='playbar'>
+                        <Playbar />
                         <div id='playbar_inner'></div>
                         <div className='playbar_left'>
-                          <div id="songTimer"></div>
+                          <div id="songTimer"><Timer /></div>
                         </div>
                         <div className='playbar_right'>
                           <span>1:00:00</span>
