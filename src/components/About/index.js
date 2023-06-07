@@ -86,13 +86,13 @@ const About = () => {
                   </div>
                   <div className='player_inner__bottom'>
                       <button className="button" id="DJ_button">
-                        <h1 id="bio">DJ artist</h1>
+                        <h1 id="bio" style={{marginRight:'19px'}}>DJ artist</h1>
                       </button>
                       <div id="myModal" className="modal">
                         <div className="modal-content">
                           <span className="close">&times;</span>
                           <img className="DJimg" src="https://titanradio.org/wp-content/uploads/2021/10/djTeal.png" alt="djPlayer"/>
-                          <h1 id="DJname">DJ Name</h1>
+                          <h1 id="DJname" style={{marginRight:'37px'}}>DJ Name</h1>
                           <p id="DJbio">DJ Bio</p>
                           <p id="DJshowBio">DJshowBio</p>
                           <DJSchedule />
