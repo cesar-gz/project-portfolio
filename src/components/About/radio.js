@@ -1,15 +1,22 @@
-import { Helmet } from 'react-helmet';
+import React, { useState } from 'react';
+import theFeed from './music/theFeed.mp3'
 
-function RadioPlayer() {
+export default function RadioPlayer() {
+
+  const [isPlaying, setPlaying] = useState(false);
+
+  const handleClick = () => {
+    setPlaying(!isPlaying);
+  };
 
   return (
-    <>
-      <Helmet>
-            <script src="https://embed.radio.co/player/d1a002c.js"
-              async />
-      </Helmet>
-    </>
-  );
+    <div className="Play">
+      <button onClick={handleClick} className="Toggle">{isPlaying ? 'Pause' : 'Play'}</button>
+      {isPlaying && (
+        <audio controls>
+          <source src={theFeed} type="audio/mpeg" />
+        </audio>
+      )}
+    </div>
+  )
 }
-
-export default RadioPlayer;

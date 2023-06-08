@@ -2,7 +2,7 @@ import './index.scss'
 import Timer from './timer'
 import Playbar from './playbar'
 import DJSchedule from './DJSchedule'
-//import RadioPlayer from './radio'
+import RadioPlayer from './radio'
 
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
@@ -108,7 +108,7 @@ const About = () => {
                           <span>1:00:00</span>
                         </div>
                       </div>
-                      {/*<RadioPlayer />*/}
+                      <RadioPlayer />
                     </div>
                   </div>
                 </div>
