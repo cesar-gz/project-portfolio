@@ -1,5 +1,5 @@
 .portfolio-page{
-    padding-left: 100px;
+    padding-left: 120px;
     padding-right: 50px;
     width: calc(100% - 150px);
     position: initial;
@@ -13,19 +13,20 @@
 
     .images-container{
         display: flex;
-        gap: 15px;
+        gap: 20px;
         flex-wrap: wrap;
         padding-bottom: 100px;
     }
 
     .image-box{
+        border: 1.5px solid #ffd700;
         position: relative;
-        flex: 1 1 20%;
-        height: 400px;
+        flex: 1 1 28%;
+        height: 450px;
         overflow: hidden;
-        border-radius: 10px;
-        max-width: calc(25% - 10px);
-    
+        border-radius: 20px;
+        max-width: calc(33% - 10px);
+
         .portfolio-image{
             position: absolute;
             z-index: 2;
@@ -33,7 +34,7 @@
             height: 100%;
             object-fit: cover;
         }
-        
+
         .content{
             position: absolute;
             width: 100%;
@@ -41,9 +42,9 @@
             padding: 10px 1px;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
             background: linear-gradient(
-                180deg,
-                #2b2a27,
-                #333
+                0deg,
+                #000000,
+                #181818
             );
             bottom: -70px;
         }
@@ -62,17 +63,19 @@
         .description{
             font-size: 18px;
             margin-bottom: 5px;
+            margin-right: 10px;
             color: #ffffff;
             text-align: center;
             font-family: 'Coolvetica';
             font-weight: 100;
             letter-spacing: 1px;
-
+            text-indent: 10px;
         }
 
         .btn{
             margin-top: 30px;
             margin-bottom: 10px;
+            margin-right: 8px;
             padding: 0 23px;
             height: 40px;
             line-height: 34px;
@@ -91,11 +94,12 @@
             transform: translateY(-3px);
             background: #ffd700;
             color: #333;
+            text-decoration: underline;
         }
 
         &:after{
             content: "";
-            background: linear-gradient(180deg, #dabd1a, #000);
+            background: linear-gradient(180deg, #000000, #000);
             position: absolute;
             left: 0;
             right: 0;
@@ -118,7 +122,7 @@
         }
 
         &:hover .title{
-            color: #ffffff;
+            color: #ffd700;
         }
     }
 

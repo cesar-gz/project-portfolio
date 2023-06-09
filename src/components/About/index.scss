@@ -33,6 +33,7 @@
         background: #ffd700;
         color: #333;
         cursor: pointer;
+        text-decoration: underline;
     }
 }
 
@@ -89,7 +90,7 @@
 }
 
 .player:after {
-	filter: blur(20px);
+	filter: blur(3px);
 }
 
 .container-wrap, .project-title {
@@ -178,13 +179,13 @@
 }
  .player_inner__middle .cube_inner__front .bars_bar {
   width: 10px;
-  background: #23bfd4;
-  opacity: 0.5;
+  background: #463f3f;
+  opacity: 0.25;
   float: left;
   width: 9.47%;
   border-style: solid;
   border-width: 1px;
-  border-color: #80e3ee;
+  border-color: #000000;
 }
 .cube_inner__front {
   background-size: 100% !important;
@@ -619,8 +620,8 @@
   height: 100%;
   border-radius: 10px;
   color: rgb(var(--text-color));
-  border: 2px double transparent;
-  background-image: linear-gradient(rgb(1, 110, 218), rgb(217, 0, 192)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+  border: 1px;
+  background-color: #23bfd4;
   background-origin: border-box;
   background-clip: padding-box, border-box;
 }
@@ -747,10 +748,10 @@
         font-weight: 700;
         color: #313133;
         background: #3e25b8;
-        background: linear-gradient(90deg, #8224E3 0%, #F84F85 100%);
+        background: linear-gradient(180deg, #246ae3 0%, #70c4e8 100%);
         border: none;
         border-radius: 1000px !important;
-        box-shadow: 0px 0px 24px 8px #3e25b8;
+        box-shadow: 0px 0px 12px 8px #553bd7;
         transition: all 0.3s ease-in-out 0s;
         cursor: pointer;
         outline: none;
@@ -780,7 +781,6 @@ opacity: 1;
 }
 
 #DJ_button::after {
-content: '';
 width: 30px; height: 30px;
 border-radius: 100%;
 border: 6px solid #00FFCB;
@@ -789,25 +789,6 @@ z-index: -1;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-animation: ring 1.5s 5;
-}
-
-#DJ_button:hover::after, #DJ_button:focus::after {
- animation: none;
- display: none;
- }
-
- @keyframes ring {
- 0% {
-        width: 30px;
-        height: 30px;
-        opacity: 1;
- }
- 100% {
-        width: 300px;
-        height: 300px;
-        opacity: 0;
- }
 }
 
 .modal {
@@ -865,16 +846,32 @@ margin:0 auto;
 
 .Play{
   position: relative;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  right: -10px;
+  left: 100px;
   top: 50px;
-}
-
-.Toggle{
-  position: relative;
-  left: 90px;
   background: transparent;
   border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.Play-Btn{
+  position: fixed;
+  left: 140px;
+  top: 520px;
+  cursor: pointer;
+  animation: buttonPulse 2s infinite;
+}
+
+@keyframes buttonPulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }

@@ -3,6 +3,7 @@ import Timer from './timer'
 import Playbar from './playbar'
 import DJSchedule from './DJSchedule'
 import RadioPlayer from './radio'
+import cover from './music/cover.jpeg'
 
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
@@ -59,7 +60,7 @@ const About = () => {
               <div className='player'>
                 <div className='player_inner'>
                   <div id="scroll-container">
-                    <h3 className="scroll-text" id="live">Now Playing</h3>
+                    <h3 className="scroll-text" id="live">Now Playing: The Feed Episode 3</h3>
                   </div>
                   <div className='player_inner__middle'>
                     <div className='cube'>
@@ -91,7 +92,7 @@ const About = () => {
                       <div id="myModal" className="modal">
                         <div className="modal-content">
                           <span className="close">&times;</span>
-                          <img className="DJimg" src="https://titanradio.org/wp-content/uploads/2021/10/djTeal.png" alt="djPlayer"/>
+                          <img className="DJimg" src={cover} alt="djPlayer"/>
                           <h1 id="DJname" style={{marginRight:'37px'}}>DJ Name</h1>
                           <p id="DJbio">DJ Bio</p>
                           <p id="DJshowBio">DJshowBio</p>

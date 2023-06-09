@@ -1,7 +1,7 @@
 {
     "portfolio": [
         {
-            "cover": "project-portfolio/portfolio/1/coming-soon.png",
+            "cover": "project-portfolio/portfolio/1/OpenDoors.jpg",
             "title": "Business Review Website",
             "description" : "Create, Review, Update, and Delete reviews. Built with React.",
             "url": "https://amazonswcollab.github.io/OpenDoors/",
@@ -15,18 +15,11 @@
             "url2": "https://github.com/Angel-Armendariz/TitanRadioLivePlayer"
         },
         {
-            "cover": "project-portfolio/portfolio/1/sharks.png",
+            "cover": "project-portfolio/portfolio/1/Shark.jpg",
             "title": "Shark Website",
             "description" : "Website on the evolution of Sharks. Built with React.",
             "url": "https://cesar-gz.github.io/Sharks/",
             "url2": "https://github.com/cesar-gz/Sharks"
-        },
-        {
-            "cover": "project-portfolio/portfolio/1/pgdraft2.png",
-            "title": "Password Web App",
-            "description" : "Web app that creates randomized passwords. Built with React.",
-            "url": "https://cesar-gz.github.io/passwordGenerator/",
-            "url2": "https://github.com/cesar-gz/passwordGenerator"
         },
         {
             "cover": "project-portfolio/portfolio/1/shopping-cart.png",
@@ -38,7 +31,7 @@
         {
             "cover": "project-portfolio/portfolio/1/alien-invasion.png",
             "title": "Alien-Invasion Game",
-            "description" : "School Project to learn Python. Built with Pygame.",
+            "description" : "School Project to learn Python Programming. Built with Pygame.",
             "url" : "https://youtube.com",
             "url2": "https://github.com/cesar-gz/Alien-Invasion"
         }

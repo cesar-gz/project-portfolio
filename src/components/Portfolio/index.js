@@ -26,22 +26,23 @@ const Portfolio = () => {
                     portfolio.map((port, idx) => {
                         return(
                             <div className="image-box" key={idx}>
-                                <img 
+                                <img
                                 src={port.cover}
                                 className="portfolio-image"
                                 alt={"portfolio"} />
                                 <div className="content">
                                     <p className="title">{port.title}</p>
                                     <h4 className="description">{port.description}</h4>
+                                    <div style={{ margin: '0 auto', display: 'flex', justifyContent: 'center', }}>
                                     <button
                                         className="btn"
-                                        style={{marginRight:'7px', marginLeft:'70px'}}
                                         onClick={() => window.open(port.url)}
                                     >View</button>
                                     <button
                                         className="btn"
                                         onClick={() => window.open(port.url2)}
                                     >GitHub</button>
+                                    </div>
                                 </div>
                             </div>
                         )
@@ -55,7 +56,7 @@ const Portfolio = () => {
         <>
             <div className="container portfolio-page">
                 <h1 className="page-title">
-                    <AnimatedLetters 
+                    <AnimatedLetters
                         letterClass={letterClass}
                         strArray={"Portfolio".split("")}
                         idx={15}
