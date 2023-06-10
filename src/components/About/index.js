@@ -60,7 +60,7 @@ const About = () => {
               <div className='player'>
                 <div className='player_inner'>
                   <div id="scroll-container">
-                    <h3 className="scroll-text" id="live">Now Playing: The Feed Episode 3</h3>
+                    <h3 className="scroll-text" id="live">Now Playing: The Feed ( Episode 3 )</h3>
                   </div>
                   <div className='player_inner__middle'>
                     <div className='cube'>

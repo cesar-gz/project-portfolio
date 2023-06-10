@@ -8,7 +8,7 @@
             "url2": "https://github.com/AmazonSWCollab/OpenDoors"
         },
         {
-            "cover": "project-portfolio/portfolio/1/radioplayer.png",
+            "cover": "project-portfolio/portfolio/1/titanRadio.jpg",
             "title": "Music Player",
             "description" : "Player for CSUF's Radio Station. Built with JS, HTML, and CSS.",
             "url": "https://titanradio.org/live/",
@@ -29,7 +29,7 @@
             "url2": "https://github.com/cesar-gz/Shopping-cart"
         },
         {
-            "cover": "project-portfolio/portfolio/1/alien-invasion.png",
+            "cover": "project-portfolio/portfolio/1/alien-invasion.jpg",
             "title": "Alien-Invasion Game",
             "description" : "School Project to learn Python Programming. Built with Pygame.",
             "url" : "https://youtube.com",

@@ -44,7 +44,7 @@ function DJSchedule() {
       'Music Player',
       'This music player was made during my web internship at Titan Radio. It is being used to play DJ Music curated from the student\'s at CSUF.',
       'Push Me',
-      'This is a slimmer version. The original contains each DJ\'s name, album cover, biography, and schedule for every week in the semester. You can find the full version of this player on Titan Radio Website. https://titanradio.org/live/',
+      'This is a slimmer version. The original contains each DJ\'s name, album cover, biography, and schedule for every week in the semester. You can find the full version of this player on the Titan Radio Website. https://titanradio.org/live/',
       cover,
     );
 
