@@ -17,13 +17,6 @@
         font-family: 'Coolvetica';
         font-weight: 400;
 
-        // &::before is the <h1> text that shows up in the home page,
-        // I need to change this later bc im trying to be a swe not a web developer
-        // you can remove opacity attribute if you want the yellow not to be opaque
-        // you can try editing the 'content" to different text if you want to keep this
-        // &:: after applies to all this too
-
-        // uncommenting content will return the <h1> on the page
         &::before{
             //content: '<h1>';
             font-family: 'La Belle Aurore';
@@ -50,10 +43,7 @@
         img{
             width: 32px;
             margin-left: 20px;
-            //opacity: 0;
             height: auto;
-            //animation: rotateIn 1s linear both;
-            //animation-delay: 1.4s;
         }
     }
 
@@ -96,7 +86,7 @@
   }
 
   50% {
-    transform: scale(1.05);
+    transform: scale(1.02);
   }
 
   100% {
