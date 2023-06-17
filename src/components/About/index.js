@@ -32,12 +32,16 @@ const About = () => {
                           idx={15}
                       />
                   </h1>
-                  <button className="flat-button" onClick={() => window.open('https://s3.amazonaws.com/symp.csm.usprod/fullerton/files/220/220ae54fec94a0eb99891a125253c028.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAID3RBESXBCESHUGA%2F20230603%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230603T025946Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=96aac89d5c250b914dbce023ab96c8399388cfe1b71080735781fa90e7b51746')}>
-                    My Resume</button>
+            <button className="flat-button" onClick={() => window.open('https://s3.amazonaws.com/symp.csm.usprod/fullerton/files/220/220ae54fec94a0eb99891a125253c028.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAID3RBESXBCESHUGA%2F20230617%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230617T145618Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=748c8af88e6befaab8d32f5981d6a23d35821525dd122080fabbf58398174d3d')}>
+                    Click here for my Resume</button>
                   <p style={{color:'rgb(228, 91, 101)'}}>
+                      I am a senior at California State University Fullerton. I am majoring in Computer Science
+                      and I am graduating December 2023. I have been a intern for Web Design at my University's radio station,
+                      and I have been interned in a Amazon Fellowship.
+                  </p>
+                  <p style={{ color: 'rgb(228, 91, 101)' }}>
                       As I've grown as a developer I have learned a lot from my mistakes, mentors, professors, and peers.
-                      I'm eager to learn new skills, improve my current skills, and help others when I can. I am graduating
-                      December 2023.
+                      I'm eager to learn new skills, improve my current skills, and help others when I can.
                   </p>
                   <p style={{color:'rgb(228, 91, 101)'}}>I can use:</p>
                   <ul>
@@ -46,7 +50,7 @@ const About = () => {
                   </ul>
                       <p style={{color:'rgb(228, 91, 101)'}}>I have taken classes on:</p>
                   <ul>
-                      <p>Javascript, Python, C++, and Assembly.</p>
+                      <p>Python, C++, Javascript, and Assembly.</p>
                       <p>Data Structures and Algorithm Engineering.</p>
                       <p>Software Design, Testing and Engineering.</p>
                       <p>Compilers, Operating Systems, Computer Networks, and Databases.</p>

@@ -4,6 +4,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
 import './index.scss'
 import Loader from 'react-loaders'
+import Sprite from '../Sprite'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -41,6 +42,7 @@ const Home = () => {
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
             <Logo />
+            <Sprite />
         </div>
         <Loader type="pacman" />
         </>

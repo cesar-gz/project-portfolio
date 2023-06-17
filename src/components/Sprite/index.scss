@@ -1,0 +1,22 @@
+.sprite {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  background-image: url('./blackagumonx.gif');
+  background-repeat: no-repeat;
+  animation: hoverAnimation 3s infinite ease-in-out alternate;
+}
+
+@keyframes hoverAnimation {
+  0% {
+    transform: translateX(-10px);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(-10px);
+  }
+}

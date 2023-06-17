@@ -4,7 +4,7 @@
             "cover": "project-portfolio/portfolio/1/OpenDoors.jpg",
             "title": "Business Review Website",
             "description" : "Create, Review, Update, and Delete reviews. Built with React.",
-            "url": "https://amazonswcollab.github.io/OpenDoors/",
+            "url": "https://youtu.be/uFDpvZWkUgo",
             "url2": "https://github.com/AmazonSWCollab/OpenDoors"
         },
         {
@@ -24,15 +24,15 @@
         {
             "cover": "project-portfolio/portfolio/1/shopping-cart.png",
             "title": "Forum and Shop Website",
-            "description" : "Website with forum and shop. Built with PHP and MySQL.",
-            "url" : "https://youtube.com",
+            "description" : "Website with forum and shop. Built with PHP, MySQL, and CSS.",
+            "url" : "https://youtu.be/XO4u1DrO7A8",
             "url2": "https://github.com/cesar-gz/Shopping-cart"
         },
         {
             "cover": "project-portfolio/portfolio/1/alien-invasion.jpg",
             "title": "Alien-Invasion Game",
             "description" : "School Project to learn Python Programming. Built with Pygame.",
-            "url" : "https://youtube.com",
+            "url" : "https://youtu.be/qwpuGuXqv9A",
             "url2": "https://github.com/cesar-gz/Alien-Invasion"
         }
     ]
