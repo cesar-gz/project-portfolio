@@ -23,10 +23,15 @@ const Logo = () => {
   return (
     <div className="logo-container">
       <ul className="slides">
-        <input type="radio" name="radio-buttons" id="img-1" checked={activeSlide === 1} />
+        <input type="radio" name="radio-buttons" id="img-1" checked={activeSlide === 1}
+               onChange={() => setActiveSlide(1)} />
         <li className="slide-container">
           <div className="slide-image">
-            <img src={pic} alt="Pic1" style={{ width: '50%', height: 'auto' }} />
+            <img src={pic} alt="Pic1" style={{
+              width: '50%', height: 'auto',
+              position: 'relative', bottom: '110px',
+              clipPath: 'polygon(0 0, 100% 0, 100% 75%, 0 75%)',
+            }} />
           </div>
           <div className="carousel-controls">
             <label htmlFor="img-3" className="prev-slide">
@@ -38,7 +43,8 @@ const Logo = () => {
           </div>
         </li>
 
-        <input type="radio" name="radio-buttons" id="img-2" checked={activeSlide === 2} />
+        <input type="radio" name="radio-buttons" id="img-2" checked={activeSlide === 2}
+               onChange={() => setActiveSlide(2)}/>
         <li className="slide-container">
           <div className="slide-image">
             <img src={pic3} alt="Pic2" style={{ width: '50%', height: 'auto' }} />
@@ -53,7 +59,8 @@ const Logo = () => {
           </div>
         </li>
 
-        <input type="radio" name="radio-buttons" id="img-3" checked={activeSlide === 3} />
+        <input type="radio" name="radio-buttons" id="img-3" checked={activeSlide === 3}
+               onChange={() => setActiveSlide(3)}/>
         <li className="slide-container">
           <div className="slide-image">
             <img src={pic2} alt="Pic3"

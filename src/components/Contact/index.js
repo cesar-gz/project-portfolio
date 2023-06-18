@@ -1,10 +1,13 @@
-import { useEffect, useState } from 'react'
-import Loader from 'react-loaders'
 import './index.scss'
+
+import { useEffect, useState } from 'react'
 import { useRef } from 'react'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+
+import Loader from 'react-loaders'
+import Sprite from '../Sprite'
 import AnimatedLetters from '../AnimatedLetters'
 import emailjs from '@emailjs/browser'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -106,6 +109,7 @@ const Contact = () => {
                     </Marker>
                 </MapContainer>
             </div>
+            <Sprite />
             <Loader type="pacman" />
         </>
     )

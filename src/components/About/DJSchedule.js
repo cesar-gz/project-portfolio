@@ -3,8 +3,6 @@ import cover from './music/cover.jpeg'
 
 function DJSchedule() {
   useEffect(() => {
-    updateSchedule();
-
     // Get the modal
     const modal = document.getElementById("myModal");
 
@@ -31,6 +29,8 @@ function DJSchedule() {
         modal.style.display = "none";
       }
     };
+
+    updateSchedule();
   }, []);
 
   function updateSchedule() {
@@ -63,24 +63,21 @@ function DJSchedule() {
       const DJshowLogo0 = document.getElementById('DJshowLogo');
       const DJshowBio0 = document.getElementById('DJshowBio');
 
-      if (DJname0.innerHTML !== djName)
+      if (DJname0 && DJname0.innerHTML !== djName)
         DJname0.innerHTML = djName;
-      if (DJbio0.innerHTML !== djBio)
+      if (DJbio0 && DJbio0.innerHTML !== djBio)
         DJbio0.innerHTML = djBio;
-      if (DJshowBio0.innerHTML !== showBio)
+      if (DJshowBio0 && DJshowBio0.innerHTML !== showBio)
         DJshowBio0.innerHTML = showBio;
-      if (showName0.innerHTML !== showName)
+      if (showName0 && showName0.innerHTML !== showName)
         showName0.innerHTML = showName;
-      if (DJshowLogo0.style.backgroundImage !== `url('${showLogo}')`)
+      if (DJshowLogo0 && DJshowLogo0.style.backgroundImage !== `url('${showLogo}')`)
         DJshowLogo0.style.backgroundImage = `url('${showLogo}')`;
     }
-
-    return null;
   }
 
   return (
     <div>
-      {/* Your JSX code for the modal goes here */}
     </div>
   );
 }

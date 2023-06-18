@@ -40,7 +40,7 @@ const About = () => {
                       and I have been interned in a Amazon Fellowship.
                   </p>
                   <p style={{ color: 'rgb(228, 91, 101)' }}>
-                      As I've grown as a developer I have learned a lot from my mistakes, mentors, professors, and peers.
+                      As I've grown as a developer I have learned a lot from my mentors, professors, and peers.
                       I'm eager to learn new skills, improve my current skills, and help others when I can.
                   </p>
                   <p style={{color:'rgb(228, 91, 101)'}}>I can use:</p>

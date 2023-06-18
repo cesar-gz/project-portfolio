@@ -4,19 +4,19 @@
   height: 52px;
   background-image: url('./blackagumonx.gif');
   background-repeat: no-repeat;
-  animation: hoverAnimation 3s infinite ease-in-out alternate;
+  //animation: movingAnimation 3s infinite ease-in-out alternate;
 }
 
-@keyframes hoverAnimation {
+@keyframes movingAnimation {
   0% {
-    transform: translateX(-10px);
+    transform: translateX(-200px);
   }
 
   50% {
-    transform: translateX(10px);
+    transform: translateX(200px);
   }
 
   100% {
-    transform: translateX(-10px);
+    transform: translateX(-200px);
   }
 }
