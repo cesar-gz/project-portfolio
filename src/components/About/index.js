@@ -4,6 +4,7 @@ import Playbar from './playbar'
 import DJSchedule from './DJSchedule'
 import RadioPlayer from './radio'
 import cover from './music/cover.jpeg'
+import resume from './music/Gutierrez-Resume.pdf'
 
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
@@ -32,7 +33,7 @@ const About = () => {
                           idx={15}
                       />
                   </h1>
-            <button className="flat-button" onClick={() => window.open('https://s3.amazonaws.com/symp.csm.usprod/fullerton/files/220/220ae54fec94a0eb99891a125253c028.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAID3RBESXBCESHUGA%2F20230617%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230617T145618Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=748c8af88e6befaab8d32f5981d6a23d35821525dd122080fabbf58398174d3d')}>
+            <button className="flat-button" onClick={() => window.open(resume)}>
                     Click here for my Resume</button>
                   <p style={{color:'rgb(228, 91, 101)'}}>
                       I am a senior at California State University Fullerton. I am majoring in Computer Science
