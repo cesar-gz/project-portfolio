@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f8ec005.css",
-    "main.js": "/static/js/main.5ae0ae9a.js",
+    "main.css": "/static/css/main.fb972f10.css",
+    "main.js": "/static/js/main.fbca5138.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/theFeed.mp3": "/static/media/theFeed.0e7abecd55ef422dc3b4.mp3",
     "static/media/self_pic2.jpg": "/static/media/self_pic2.3159418d292d1c9210c4.jpg",
     "static/media/self_pic.jpg": "/static/media/self_pic.9c9cd6a356aef4135cac.jpg",
-    "static/media/Gutierrez-Resume.pdf": "/static/media/Gutierrez-Resume.ad2a367e7ce4c6e79b61.pdf",
+    "static/media/Gutierrez-Resume.pdf": "/static/media/Gutierrez-Resume.ad3b6e93a65952f0dda9.pdf",
     "static/media/self_pic3.jpg": "/static/media/self_pic3.70ea8b4000c7c578e6b0.jpg",
     "static/media/cover.jpeg": "/static/media/cover.f6cf763616318ec8c5a9.jpeg",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -15,12 +15,12 @@
     "static/media/logo-sub.png": "/static/media/logo-sub.a5967835ed293c458a86.png",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.1f8ec005.css.map": "/static/css/main.1f8ec005.css.map",
-    "main.5ae0ae9a.js.map": "/static/js/main.5ae0ae9a.js.map",
+    "main.fb972f10.css.map": "/static/css/main.fb972f10.css.map",
+    "main.fbca5138.js.map": "/static/js/main.fbca5138.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f8ec005.css",
-    "static/js/main.5ae0ae9a.js"
+    "static/css/main.fb972f10.css",
+    "static/js/main.fbca5138.js"
   ]
 }
