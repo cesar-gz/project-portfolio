@@ -24,18 +24,18 @@ const Home = () => {
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
-                <span className={letterClass}>H</span>
-                <span className={`${letterClass} _12`}>i</span>
-                <span className={letterClass}> </span>
-                <span className={`${letterClass} _13`}>I</span>
-                <span className={`${letterClass} _14`}>'m</span>
-                <AnimatedLetters letterClass={letterClass}
-                strArray={nameArray}
-                idx={15}/>
-                <br />
-                <AnimatedLetters letterClass={letterClass}
-                strArray={jobArray}
-                idx={19}/>
+                    <span className={letterClass}>H</span>
+                    <span className={`${letterClass} _12`}>i</span>
+                    <span className={letterClass}> </span>
+                    <span className={`${letterClass} _13`}>I</span>
+                    <span className={`${letterClass} _14`}>'m</span>
+                    <AnimatedLetters letterClass={letterClass}
+                          strArray={nameArray}
+                          idx={15}/>
+                    <br />
+                    <AnimatedLetters letterClass={letterClass}
+                          strArray={jobArray}
+                          idx={19}/>
                 </h1>
                 <h2>Computer Science Student, CSUF December 2023</h2>
                 <Link to="/portfolio" className='flat-button' style={{ animation: 'buttonPulse 4s infinite', background: '#ffd700', color:'#333'}}>MY PORTFOLIO</Link>

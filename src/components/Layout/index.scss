@@ -12,7 +12,7 @@
 .tags{
     color: #ffd700;
     opacity: 0.6;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 120px;
     font-size: 18px;
@@ -27,8 +27,8 @@
     width: 100%;
     will-change: contents;
     height: 90%;
-    min-height: 566px;
-    position: absolute;
+    min-height: 680px;
+    position: relative;
     opacity: 0;
     top: 5%;
     margin: 0 auto;

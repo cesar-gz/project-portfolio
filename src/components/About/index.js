@@ -44,22 +44,6 @@ const About = () => {
                       As I've grown as a developer I have learned a lot from my mentors, professors, and peers.
                       I'm eager to learn new skills, improve my current skills, and help others when I can.
                   </p>
-                  <p style={{color:'rgb(228, 91, 101)'}}>I can use:</p>
-                  <ul>
-                      <p>Git, GitHub, React, MongoDB, Scrum, Trello and Slack.</p>
-                      <p>Windows, Linux, Ubuntu, VSCode, ChatGPT, WordPress, PHP and MySQL.</p>
-                  </ul>
-                      <p style={{color:'rgb(228, 91, 101)'}}>I have taken classes on:</p>
-                  <ul>
-                      <p>Python, C++, Javascript, and Assembly.</p>
-                      <p>Data Structures and Algorithm Engineering.</p>
-                      <p>Software Design, Testing and Engineering.</p>
-                      <p>Compilers, Operating Systems, Computer Networks, and Databases.</p>
-                  </ul>
-                      <p style={{color:'rgb(228, 91, 101)'}}>I am taking these classes in Fall 2023:</p>
-                  <ul>
-                      <p>Software Process, Mobile App Development, Senior Capstone Project, and Artificial Intelligence.</p>
-                  </ul>
               </div>
 
               <div className='player'>

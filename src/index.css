@@ -10,8 +10,7 @@ body {
   color: #444;
   /* background: #2B3784; */
   background-color: #111;
-  overflow: hidden;
-  display: block;
+  overflow: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
