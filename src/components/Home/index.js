@@ -19,7 +19,7 @@ const Home = () => {
     const nameArray = [' ', 'G', 'u', 't', 'i', 'e', 'r', 'r', 'e', 'z'];
     const jobArray = ['C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ', 'S', 'c', 'i', 'e', 'n', 'c', 'e', ' ',
                      'S', 't', 'u', 'd', 'e', 'n', 't' ];
-    const subArray = ['F','r','o','n','t','-','E','n','d', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
+    const subArray = ['A','s','p','i','r','i','n','g',' ','F','r','o','n','t','-','E','n','d', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
 
 
     useEffect(() => {
@@ -52,7 +52,7 @@ const Home = () => {
                 <h3>
                     <AnimatedLetters letterClass={letterClass}
                       strArray={subArray}
-                      idx={21}/>
+                      idx={18}/>
                 </h3>
                 <Link to="/portfolio" className='flat-button'>Projects</Link>
                 <button className='flat-button' onClick={() => window.open(resume)}>Resume</button>

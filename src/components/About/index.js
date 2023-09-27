@@ -33,13 +33,23 @@ const About = () => {
                       />
                   </h1>
                   <p>
-                      I am a senior at California State University Fullerton. I am majoring in Computer Science
-                      and I am graduating December 2023. I have been a intern for Web Design at my University's radio station,
-                      and I have been interned in a Amazon Fellowship.
+                      Hello, I'm Cesar Gutierrez, a senior at California State University Fullerton with a passion for Front-End Web Development.
+                      I also enjoy learning about Back-End Web development and Cyber Security.
+                      With 2 internship experiences at my University with Titan Radio and the Amazon Fellowship,
+                      I've had the privilege of learning about user interfaces, user experiences, and the software process.
+                      My skills include React, Angular, and software design, development, and testing.
                   </p>
                   <p>
-                      As I've grown as a developer I have learned a lot from my mentors, professors, and peers.
-                      I'm eager to learn new skills, improve my current skills, and help others when I can.
+                      My portfolio primarily focuses on Front-End applications, where I excel in CSS, HTML, and JavaScript.
+                      I believe in consistent practice and repetition to hone my Front-End skills, and to deliver exceptional products.
+                      This inspires me to continuously learn new ways of doing things and to relentlessly practice basics to own
+                      my skills. Some of my notable achievements include winning third place for a design challenge with my team
+                      from the Amazon fellowship. This experience and other internship experiences have allowed me to learn communication and team work skills that help finish a product.
+                  </p>
+                  <p>
+                      Beyond my professional life, I enjoy playing volleyball, watching anime, hiking, and pc gaming. I find that these pursuits clear my mind
+                      and give me energy and perspective to learn and try new technologies. Looking ahead, I'm excited about graduating and being able to start
+                      working somewhere I can contribute and learn from.
                   </p>
               </div>
 
