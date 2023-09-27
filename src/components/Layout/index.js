@@ -7,14 +7,13 @@ const Layout = () => {
     <div className="App">
         <Sidebar />
         <div className='page'>
-            <span className='tags top-tags'>My Portfolio Project Website</span>
+            <span className='tags top-tags'>Project Portfolio Website</span>
 
             <Outlet />
 
             <span className='tags bottom-tags'>
-            designed by Cesar Gutierrez
+            Designed October 2023
             <br />
-            <span className='bottom-tag-html'>Copyright 2023</span>
 
             </span>
         </div>

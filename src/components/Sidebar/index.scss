@@ -60,7 +60,7 @@
 
             &:after{
                 content: '';
-                font-size: 9px;
+                font-size: 12px;
                 letter-spacing: 2px;
                 position: absolute;
                 bottom: 0;
@@ -69,6 +69,8 @@
                 text-align: center;
                 opacity: 0;
                 transition: all 0.3s ease-out;
+                text-decoration: underline;
+                font-family: 'Inter';
             }
 
             &:first-child{

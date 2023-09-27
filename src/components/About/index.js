@@ -4,7 +4,6 @@ import Playbar from './playbar'
 import DJSchedule from './DJSchedule'
 import RadioPlayer from './radio'
 import cover from './music/cover.jpeg'
-import resume from './music/Gutierrez-Resume.pdf'
 
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
@@ -33,14 +32,12 @@ const About = () => {
                           idx={15}
                       />
                   </h1>
-            <button className="flat-button" onClick={() => window.open(resume)}>
-                    Click here for my Resume</button>
-                  <p style={{color:'rgb(228, 91, 101)'}}>
+                  <p>
                       I am a senior at California State University Fullerton. I am majoring in Computer Science
                       and I am graduating December 2023. I have been a intern for Web Design at my University's radio station,
                       and I have been interned in a Amazon Fellowship.
                   </p>
-                  <p style={{ color: 'rgb(228, 91, 101)' }}>
+                  <p>
                       As I've grown as a developer I have learned a lot from my mentors, professors, and peers.
                       I'm eager to learn new skills, improve my current skills, and help others when I can.
                   </p>
