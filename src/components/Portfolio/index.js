@@ -55,7 +55,11 @@ const Portfolio = () => {
     return (
         <>
             <div className="container portfolio-page">
-                <h1 className="page-title">
+                <h1 className="page-title"
+                        style={{
+                          margin: '0 auto', display: 'flex',
+                          justifyContent: 'center',
+                          padding: '40px' }}>
                     <AnimatedLetters
                         letterClass={letterClass}
                         strArray={"Portfolio".split("")}

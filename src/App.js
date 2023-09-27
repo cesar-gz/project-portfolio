@@ -18,6 +18,16 @@ function App() {
         <Route path="/project-portfolio" element={<Home />} />
       </Route>
     </Routes>
+
+    {/*
+    SPA layout
+      {<Layout />}
+      {<Home />}
+      {<About />}
+      {<Portfolio />}
+      {<Contact />}
+    */}
+
     </>
   )
 }

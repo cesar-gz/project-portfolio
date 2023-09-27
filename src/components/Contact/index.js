@@ -5,7 +5,6 @@ import { useRef } from 'react'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 import Loader from 'react-loaders'
-import Sprite from '../Sprite'
 import AnimatedLetters from '../AnimatedLetters'
 import emailjs from '@emailjs/browser'
 
@@ -91,25 +90,21 @@ const Contact = () => {
                     </form>
                 </div>
                 </div>
+                <div className='map-wrap'>
+                    <div className="info-map">
+                        800 N State College Blvd,<br />
+                        Fullerton, CA 92831<br />
+                        <span>cesarg7@csu.fullerton.edu</span>
+                    </div>
+                    <MapContainer center={[33.880905, -117.885398]} zoom={17}>
+                        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                        <Marker position={[33.880905, -117.885398]}>
+                            <Popup>I study here and enjoy meeting people here. </Popup>
+                        </Marker>
+                    </MapContainer>
+                </div>
             </div>
-            <div className="info-map">
-                Cesar Gutierrez,
-                <br />
-                United States,
-                <br />
-                800 N State College Blvd,<br />
-                Fullerton, CA 92831 <br />
-                <span>cesarg7@csu.fullerton.edu</span>
-            </div>
-            <div className='map-wrap'>
-                <MapContainer center={[33.880905, -117.885398]} zoom={13}>
-                    <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                    <Marker position={[33.880905, -117.885398]}>
-                        <Popup>I study here and enjoy meeting people here. </Popup>
-                    </Marker>
-                </MapContainer>
-            </div>
-            <Sprite />
+
             <Loader type="pacman" />
         </>
     )
