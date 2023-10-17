@@ -59,11 +59,14 @@ const Home = () => {
             </div>
             <Logo />
         </div>
+
         <About />
-        <Portfolio />
+
         <div className='spacer'>
+          <Portfolio />
           <Contact />
         </div>
+
         <Loader type="pacman" />
         </>
     )

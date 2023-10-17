@@ -8,13 +8,6 @@
             "url2": "https://github.com/AmazonSWCollab/OpenDoors"
         },
         {
-            "cover": "https://i.ibb.co/zHxpj8y/titan-Radio.jpg",
-            "title": "Music Player",
-            "description" : "Player for CSUF's Radio Station. Built with JS, HTML, and CSS.",
-            "url": "https://titanradio.org/live/",
-            "url2": "https://github.com/Angel-Armendariz/TitanRadioLivePlayer"
-        },
-        {
           "cover": "https://i.ibb.co/y4jhcFs/shopping-cart.png",
           "title": "E-Commerce Website",
           "description": "Website with forum and shop. Built with PHP, MySQL, and CSS.",

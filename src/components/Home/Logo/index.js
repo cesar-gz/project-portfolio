@@ -5,13 +5,11 @@ const Logo = () => {
 
   return (
     <div className="logo-container">
-      <div className='solid-logo'>
         <img src={pic2} alt="Pic2"
           style={{
-          width: '100%',
+          width: '70%',
           clipPath: 'polygon(0 0, 100% 0, 100% 75%, 0 75%)',
           }} />
-      </div>
     </div>
   );
 };

@@ -46,11 +46,6 @@ const About = () => {
                       my skills. Some of my notable achievements include winning third place for a design challenge with my team
                       from the Amazon fellowship. This experience and other internship experiences have allowed me to learn communication and team work skills that help finish a product.
                   </p>
-                  <p>
-                      Beyond my professional life, I enjoy playing volleyball, watching anime, hiking, and pc gaming. I find that these pursuits clear my mind
-                      and give me energy and perspective to learn and try new technologies. Looking ahead, I'm excited about graduating and being able to start
-                      working somewhere I can contribute and learn from.
-                  </p>
               </div>
 
               <div className='player'>
