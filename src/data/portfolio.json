@@ -3,29 +3,29 @@
         {
             "cover": "https://i.ibb.co/x2MdHXV/Open-Doors.jpg",
             "title": "Business Review Website",
-            "description" : "Create, Review, Update, and Delete reviews. Built with React.",
-            "url": "https://youtu.be/3bgmUNG4jx0",
+            "description" : "Create, Review, Update, and Delete reviews. Built with React and MongoDB.",
+            "url": "https://www.youtube.com/watch?v=iscLS9l0Xw4",
             "url2": "https://github.com/AmazonSWCollab/OpenDoors"
         },
         {
           "cover": "https://i.ibb.co/y4jhcFs/shopping-cart.png",
           "title": "E-Commerce Website",
           "description": "Website with forum and shop. Built with PHP, MySQL, and CSS.",
-          "url": "https://youtu.be/XO4u1DrO7A8",
+          "url": "https://www.youtube.com/watch?v=Ijp6ttY01U4",
           "url2": "https://github.com/cesar-gz/Shopping-cart"
         },
         {
-            "cover": "https://i.ibb.co/4Scf7sz/Shark.jpg",
-            "title": "Shark Website",
-            "description" : "Website on the evolution of Sharks. Built with React.",
-            "url": "https://cesar-gz.github.io/Sharks/",
-            "url2": "https://github.com/cesar-gz/Sharks"
+            "cover": "https://i.ibb.co/j3vY4NJ/cp-portrait-mode.png",
+            "title": "Android Phone App",
+            "description" : "App that lets you make colors based on RGB values. Built with Kotlin and Android Studio.",
+            "url": "https://github.com/cesar-gz/Android-Mobile-Apps",
+            "url2": "https://github.com/cesar-gz/Android-Mobile-Apps"
         },
         {
             "cover": "https://i.ibb.co/7ksC1Bp/alien-invasion.jpg",
             "title": "Alien-Invasion Game",
-            "description" : "School Project to learn Python Programming. Built with Pygame.",
-            "url" : "https://youtu.be/qwpuGuXqv9A",
+            "description" : "Game with sound, scoreboard, and difficulty built with Python and Pygame.",
+            "url" : "https://www.youtube.com/watch?v=YphXA6GJGxc",
             "url2": "https://github.com/cesar-gz/Alien-Invasion"
         }
     ]

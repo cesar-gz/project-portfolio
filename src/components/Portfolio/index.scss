@@ -13,7 +13,7 @@
     }
 
     .image-box{
-        border: 1.5px solid #ffd700;
+        border: 1px solid #ffd700;
         position: relative;
         flex: 1 1 35%;
         height: 450px;
@@ -111,7 +111,7 @@
         }
 
         &:hover:after{
-            opacity: 0.95;
+            opacity: 0.75;
         }
 
         &:hover .content{
