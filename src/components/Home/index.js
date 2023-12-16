@@ -1,26 +1,18 @@
 import './index.scss'
-
+import { useEffect, useState } from 'react'
 import About from '../About'
 import Contact from '../Contact'
 import Portfolio from '../Portfolio';
-
-import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
-
 import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
 import Loader from 'react-loaders'
-
 import resume from '../About/music/Gutierrez-Resume.pdf'
-
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = [' ', 'G', 'u', 't', 'i', 'e', 'r', 'r', 'e', 'z'];
-    const jobArray = ['C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ', 'S', 'c', 'i', 'e', 'n', 'c', 'e', ' ',
-                     'S', 't', 'u', 'd', 'e', 'n', 't' ];
-    const subArray = ['A','s','p','i','r','i','n','g',' ','F','r','o','n','t','-','E','n','d', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
-
+    const jobArray = ['C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ', 'S', 'c', 'i', 'e', 'n', 'c', 'e'];
+    const subArray = ['F','r','o','n','t','-','E','n','d', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
 
     useEffect(() => {
         setTimeout(() => {
@@ -54,7 +46,6 @@ const Home = () => {
                       strArray={subArray}
                       idx={18}/>
                 </h3>
-                <Link to="/portfolio" className='flat-button'>Projects</Link>
                 <button className='flat-button' onClick={() => window.open(resume)}>Resume</button>
             </div>
             <Logo />

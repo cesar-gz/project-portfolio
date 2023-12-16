@@ -91,20 +91,14 @@ const Contact = () => {
                 </div>
                 </div>
                 <div className='map-wrap'>
-                    <div className="info-map">
-                        800 N State College Blvd,<br />
-                        Fullerton, CA 92831<br />
-                        <span>cesarg7@csu.fullerton.edu</span>
-                    </div>
-                    <MapContainer center={[33.880905, -117.885398]} zoom={17}>
+                    <MapContainer center={[33.880905, -117.885398]} zoom={15}>
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                         <Marker position={[33.880905, -117.885398]}>
-                            <Popup>I study here and enjoy meeting people here. </Popup>
+                            <Popup>I study here and enjoy meeting people here.</Popup>
                         </Marker>
                     </MapContainer>
                 </div>
             </div>
-
             <Loader type="pacman" />
         </>
     )

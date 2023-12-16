@@ -7,15 +7,9 @@ const Layout = () => {
     <div className="App">
         <Sidebar />
         <div className='page'>
-            <span className='tags top-tags'>Project Portfolio Website</span>
-
+            <span className='tags top-tags'>My Portfolio</span>
             <Outlet />
-
-            <span className='tags bottom-tags'>
-            Designed October 2023
-            <br />
-
-            </span>
+            <span className='tags bottom-tags'>Updated January 2024</span>
         </div>
     </div>
     )

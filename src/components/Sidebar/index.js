@@ -18,7 +18,7 @@ const Sidebar = () => (
                 activeclassname="active"
                 to="/"
             >
-                <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faHome} color="#a7b7bd" />
             </NavLink>
             <NavLink
                 exact="true"
@@ -26,7 +26,7 @@ const Sidebar = () => (
                 className="about-link"
                 to="/about"
             >
-                <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faUser} color="#a7b7bd" />
             </NavLink>
             <NavLink
                 exact="true"
@@ -34,7 +34,7 @@ const Sidebar = () => (
                 className="portfolio-link"
                 to="/portfolio"
             >
-                <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faSuitcase} color="#a7b7bd" />
             </NavLink>
             <NavLink
                 exact="true"
@@ -42,7 +42,7 @@ const Sidebar = () => (
                 className="contact-link"
                 to="/contact"
             >
-                <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faEnvelope} color="#a7b7bd" />
             </NavLink>
         </nav>
         <ul>
@@ -51,7 +51,7 @@ const Sidebar = () => (
                    rel="noreferrer"
                    href="https://www.linkedin.com/in/cesargz/"
                 >
-                    <FontAwesomeIcon icon={faLinkedin} color="#fff" />
+                    <FontAwesomeIcon icon={faLinkedin} color="#a7b7bd" />
                 </a>
             </li>
 
@@ -60,7 +60,7 @@ const Sidebar = () => (
                    rel="noreferrer"
                    href="https://github.com/cesar-gz"
                 >
-                    <FontAwesomeIcon icon={faGithub} color="#fff" />
+                    <FontAwesomeIcon icon={faGithub} color="#a7b7bd" />
                 </a>
             </li>
 

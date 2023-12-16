@@ -9,7 +9,7 @@
     }
 
     h1{
-        color:#0497f2;
+        color:#dce3e6;
         font-size: 50px;
         margin: 0;
         font-family: 'Cinzel';
@@ -18,7 +18,7 @@
     }
 
     h2{
-        color:#ffd700;
+        color:#eef2f3;
         margin-top: 10px;
         font-weight: 300;
         font-size: 27px;
@@ -27,13 +27,13 @@
 
         .text-animate-hover {
             &:hover {
-              color: #0497f2;
+              color: #415a77;
             }
           }
     }
 
     h3 {
-      color: rgb(250, 232, 170);
+      color: #415a77;
       font-weight: 400;
       font-size: 18px;
       font-family: 'Inter';
@@ -41,32 +41,32 @@
 
       .text-animate-hover {
           &:hover {
-            color: #0497f2;
+            color: #DCE3E6;
           }
         }
     }
 
     .flat-button{
-        color:#ffd700;
-        background-color: #111;
+        color:#eef2f3;
+        background-color: transparent;
         font-size: 12px;
         font-weight: 400;
         letter-spacing: 4px;
         font-family: 'Cinzel';
         text-decoration: none;
         padding: 10px 28px;
-        border: 1px solid #ffd700;
+        border: 1px solid #eef2f3;
         margin-top: 25px;
         margin-right: 20px;
-        float: left;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
 
         &:hover{
-            background: #ffd700;
+            background: #b9c6cb;
             font-weight: 700;
             color: #333;
             text-decoration: underline;
+            cursor: pointer;
         }
     }
 }

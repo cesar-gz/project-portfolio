@@ -10,7 +10,7 @@
 }
 
 .tags{
-    color: #ffd700;
+    color: #dce3e6;
     opacity: 0.7;
     position: fixed;
     bottom: 0;
@@ -46,8 +46,8 @@
         h1{
             font-size: 38px;
             font-family: 'Cinzel';
-            color:#ffd700;
-            font-weight: 400;
+            color:#dce3e6;
+            font-weight: 600;
             margin-top: 0;
             position: relative;
             margin-bottom: 40px;
@@ -57,7 +57,7 @@
 
         p{
             font-size: 16px;
-            color: rgb(235, 228, 206);
+            color: #eef2f3;
             font-family: 'Inter';
             font-weight: 400;
             min-width: fit-content;
@@ -91,7 +91,7 @@
 
     .text-animate-hover{
         &:hover{
-            color: #0497f2;
+            color: #415a77;
         }
     }
 }
