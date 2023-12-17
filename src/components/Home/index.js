@@ -11,8 +11,8 @@ import resume from '../About/music/Gutierrez-Resume.pdf'
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = [' ', 'G', 'u', 't', 'i', 'e', 'r', 'r', 'e', 'z'];
-    const jobArray = ['C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ', 'S', 'c', 'i', 'e', 'n', 'c', 'e'];
-    const subArray = ['F','r','o','n','t','-','E','n','d', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
+    const subArray = ['C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ', 'S', 'c', 'i', 'e', 'n', 'c', 'e'];
+    const jobArray = ['F','r','o','n','t','-','E','n','d', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
 
     useEffect(() => {
         setTimeout(() => {
@@ -33,27 +33,24 @@ const Home = () => {
                     <AnimatedLetters letterClass={letterClass}
                           strArray={nameArray}
                           idx={15}/>
-                    <br />
                 </h1>
                 <h2>
                     <AnimatedLetters letterClass={letterClass}
                       strArray={jobArray}
                       idx={19} />
-                      <br />
                 </h2>
                 <h3>
                     <AnimatedLetters letterClass={letterClass}
                       strArray={subArray}
-                      idx={18}/>
+                      idx={16}/>
                 </h3>
                 <button className='flat-button' onClick={() => window.open(resume)}>Resume</button>
             </div>
             <Logo />
         </div>
 
-        <About />
-
-        <div className='spacer'>
+        <div class="vertical-container">
+          <About />
           <Portfolio />
           <Contact />
         </div>
