@@ -4,11 +4,12 @@
   align-items: center; /* Center vertically */
   width: 25%;
   height: 450px;
-  // background-color: white; <- used for testing purposes
 }
 
 .logo-container img {
   max-width: 100%; /* of the container */
   max-height: 100%;
   object-fit: contain; /* This ensures the aspect ratio is maintained */
+  border: 1px solid #cad4d8;
+  animation: fadeIn 1s 3.8s backwards;
 }

@@ -1,19 +1,19 @@
-import './index.scss'
-import { useEffect, useState } from 'react'
-import About from '../About'
-import Contact from '../Contact'
+import './index.scss';
+import { useEffect, useState } from 'react';
+import AnimatedLetters from '../AnimatedLetters';
+import Logo from './Logo';
+import Loader from 'react-loaders';
+import About from '../About';
 import Portfolio from '../Portfolio';
-import AnimatedLetters from '../AnimatedLetters'
-import Logo from './Logo'
-import Loader from 'react-loaders'
-import resume from '../About/music/Gutierrez-Resume.pdf'
+import Contact from '../Contact';
+import resume from '../../assets/images/resume.pdf';
+
 
 const Home = () => {
-    const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = [' ', 'G', 'u', 't', 'i', 'e', 'r', 'r', 'e', 'z'];
-    const subArray = ['C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ', 'S', 'c', 'i', 'e', 'n', 'c', 'e'];
-    const jobArray = ['F','r','o','n','t','-','E','n','d', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
-
+    const [letterClass, setLetterClass] = useState('text-animate');
+    const nameArray = ['C', 'e', 's', 'a', 'r', ' ', 'G', 'u', 't', 'i', 'e', 'r', 'r', 'e', 'z'];
+    const jobArray = ['Q', 'u', 'a', 'l', 'i', 'f', 'i','e', 'd', ' ', 'S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r'];
+    const subArray = ['B', 'a', 'c', 'h', 'e', 'l', 'o', 'r', 's', ' ', 'i', 'n', ' ', 'C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ', 'S', 'c', 'i', 'e', 'n', 'c', 'e'];
     useEffect(() => {
         setTimeout(() => {
             return setLetterClass('text-animate-hover')
@@ -25,26 +25,18 @@ const Home = () => {
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
-                    <span className={letterClass}>C</span>
-                    <span className={`${letterClass} _12`}>e</span>
-                    <span className={letterClass}>s</span>
-                    <span className={`${letterClass} _13`}>a</span>
-                    <span className={`${letterClass} _14`}>r</span>
                     <AnimatedLetters letterClass={letterClass}
                           strArray={nameArray}
                           idx={15}/>
                 </h1>
-                <h2>
-                    <AnimatedLetters letterClass={letterClass}
-                      strArray={jobArray}
-                      idx={19} />
-                </h2>
-                <h3>
-                    <AnimatedLetters letterClass={letterClass}
-                      strArray={subArray}
-                      idx={16}/>
-                </h3>
+                <h1 className='job-title'>
+                    {jobArray}
+                </h1>
+                <h1 className='sub-array'>
+                    {subArray}
+                </h1>
                 <button className='flat-button' onClick={() => window.open(resume)}>Resume</button>
+                <div className="waves"></div>
             </div>
             <Logo />
         </div>

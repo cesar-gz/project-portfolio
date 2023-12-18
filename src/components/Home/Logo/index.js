@@ -1,11 +1,11 @@
-import pic2 from '../../../assets/images/self_pic2.jpg';
+import pic from '../../../assets/images/self.jpg';
 import './index.scss';
 
 const Logo = () => {
 
   return (
     <div className="logo-container">
-        <img src={pic2} alt="Pic2"/>
+        <img src={pic} alt="pic"/>
     </div>
   );
 };

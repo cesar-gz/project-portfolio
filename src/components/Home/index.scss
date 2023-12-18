@@ -6,45 +6,60 @@
 
     .text-zone{
         width: 40%;
-        //background-color: blue;
+        margin-right: 30px;
+
+        .waves {
+            margin-top: -55px;
+            width: 80%;
+            height: 250px;
+            background-image: url('../../assets/images/waves.png');
+            background-size: 100%;
+            background-attachment: local, scroll;
+            background-position: 15px;
+            background-repeat: no-repeat;
+            animation: fadeIn 1s 3.8s backwards;
+          }
+    }
+
+    .job-title{
+        color: #dce3e6;
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 18px;
+        font-family: 'Inter';
+        letter-spacing: 1px;
+        animation: fadeIn 1s 3.8s backwards;
+
+        .text-animate-hover {
+          &:hover {
+            color: #415a77;
+          }
+        }
+      }
+
+    .sub-array{
+      color: #415a77;
+      font-weight: 400;
+      font-size: 16px;
+      font-family: 'Inter';
+      letter-spacing: 1px;
+      margin-top: 10px;
+      animation: fadeIn 1s 3.8s backwards;
+
+      .text-animate-hover {
+        &:hover {
+          color: #DCE3E6;
+        }
+      }
     }
 
     h1{
-        color:#dce3e6;
-        font-size: 50px;
+        color:#eef2f3;
+        font-size: 55px;
         margin: 0;
-        font-family: 'Cinzel';
+        font-family: 'Cardo';
         font-weight: 700;
         letter-spacing: 1px;
-    }
-
-    h2{
-        color:#eef2f3;
-        margin-top: 10px;
-        font-weight: 300;
-        font-size: 27px;
-        font-family: 'Cardo';
-        animation: fadeIn 1s 1.8s backwards;
-
-        .text-animate-hover {
-            &:hover {
-              color: #415a77;
-            }
-          }
-    }
-
-    h3 {
-      color: #415a77;
-      font-weight: 400;
-      font-size: 18px;
-      font-family: 'Inter';
-      letter-spacing: 4px;
-
-      .text-animate-hover {
-          &:hover {
-            color: #DCE3E6;
-          }
-        }
     }
 
     .flat-button{
@@ -59,7 +74,7 @@
         border: 1px solid #eef2f3;
         margin-top: 25px;
         margin-right: 20px;
-        animation: fadeIn 1s 1.8s backwards;
+        animation: fadeIn 1s 3.8s backwards;
         white-space: nowrap;
 
         &:hover{
