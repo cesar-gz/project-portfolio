@@ -1,25 +1,32 @@
 .portfolio-page{
     //width: calc(100% - 420px);
-    width: 70%;
-    //position: relative;
+    width: 85%;
     height: 100%;
 
     .images-container{
         display: flex;
-        gap: 50px;
-        flex-wrap: wrap;
+        gap: 20px;
+        //flex-wrap: wrap;      commented out needed for carousel
         padding-bottom: 100px;
-        justify-content: space-evenly;
+        justify-content: flex-start;
+        overflow-x: auto;         /* added for carousel */
+        scroll-behavior: smooth; /* added for carousel */
+        overflow: hidden;
+        z-index: 2;
     }
 
     .image-box{
-        border: 2px solid #eef2f3;
+        border: 1px solid #eef2f3;
         position: relative;
-        flex: 1 1 35%;
-        height: 450px;
+        //flex: 1 1 35%;      commented out for carousel
+        //flex: 0 0 auto;
+        flex: 0 0 calc(33.333% - 20px);
+        height: 380px;
         overflow: hidden;
-        border-radius: 20px;
-        max-width: calc(35% - 10px);
+        border-radius: 4px;
+        //max-width: calc(18%);   commented out for carousel
+        //width: 25%;
+        width: calc(33.333% - 20px);
 
         .portfolio-image{
             position: absolute;
@@ -121,4 +128,41 @@
         }
     }
 
+    .portfolio-navigation {
+      justify-content: space-between;
+      position: relative;
+      width: 85%;
+      left: 8.5%;
+
+      .left-arrow,
+      .right-arrow {
+        position: absolute;
+        top: 42%;
+        transform: translateY(-50%);
+        z-index: 4;
+        font-size: 14px;
+        color: #eef2f3;
+        background: 0 0;
+        letter-spacing: 2px;
+        text-decoration: none;
+        padding: 4px 8px;
+        border: 1px solid #eef2f3;
+        float: right;
+        border-radius: 4px;
+        margin-top: 10px;
+
+        &:hover {
+            background: #b9c6cb;
+            color: #333;
+            cursor: pointer;
+          }
+      }
+      .left-arrow {
+        left: -45px;
+      }
+
+      .right-arrow {
+        right: -35px;
+      }
+    }
 }

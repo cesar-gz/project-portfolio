@@ -27,19 +27,19 @@ const About = () => {
                       />
                   </h1>
                   <p>
-                      Hello! I have a passion for Front-End Engineering and all things Software.
+                      <span className='highlight'>Hello!</span> I have a passion for Front-End Engineering and all things Software.
                       I have two internship experiences at my University with Titan Radio and the Amazon Fellowship.
-                      One of my notable achievements includes winning third place for a design challenge with my team
+                      One of my notable achievements includes <span className='highlight'>winning third place</span> for a design challenge with my team
                       from the Amazon fellowship.
                   </p>
                   <p>
-                      These internships have allowed me to learn communication and team work skills geared towards finishing a product.
+                      These <span className='highlight'>internships</span> have allowed me to learn communication and team work skills geared towards finishing a product.
                       I've also had the privilege of learning about user interfaces, user experiences, and the software
-                      process. My skills include React, Angular, Software Design, Development, and Testing.
+                      process. <span className='highlight'>My skills include</span> React, Angular, Software Design, Development, and Testing.
                   </p>
                   <p>
                       When I am not on the computer, I play indoor and beach volleyball with
-                      friends.
+                      friends. I also like lifting weights and running.
                   </p>
               </div>
               <div className="logo-container">

@@ -1,9 +1,7 @@
 import './index.scss'
-
 import { useEffect, useState } from 'react'
 import { useRef } from 'react'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
-
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import emailjs from '@emailjs/browser'
@@ -50,10 +48,7 @@ const Contact = () => {
                     idx={15}
                     />
                 </h1>
-                <p>
-                    Feel free to reach out if you're looking for a developer, have a question, or want to connect.
-                    I'm usually at California State University Fullerton studying in the library.
-                </p>
+                <p style={{marginTop:'-25px'}}>Feel free to reach out if you're looking for a developer, have a question, or want to connect.</p>
                 <div className='contact-form'>
                     <form ref={form} onSubmit={sendEmail}>
                         <ul>

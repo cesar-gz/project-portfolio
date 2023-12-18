@@ -35,7 +35,7 @@ const Home = () => {
                 <h1 className='sub-array'>
                     {subArray}
                 </h1>
-                <button className='flat-button' onClick={() => window.open(resume)}>Resume</button>
+                <button className='flat-button' onClick={() => window.open(resume)}>View Résumé</button>
                 <div className="waves"></div>
             </div>
             <Logo />

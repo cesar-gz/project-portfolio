@@ -1,8 +1,15 @@
 {
     "portfolio": [
         {
+          "cover": "https://i.ibb.co/MVpLVkN/Screenshot-2023-12-18-121942.jpg",
+          "title": "Covid Website",
+          "description": "Website on Coronavirus stats. Built with Gatsby, React-Chartjs-2, and Netlify.",
+          "url": "https://main--dancing-gecko-fe9278.netlify.app/",
+          "url2": "https://github.com/cesar-gz/covid-website"
+        },
+        {
             "cover": "https://i.ibb.co/x2MdHXV/Open-Doors.jpg",
-            "title": "Business Review Website",
+            "title": "Review Website",
             "description" : "Create, Review, Update, and Delete reviews. Built with React and MongoDB.",
             "url": "https://www.youtube.com/watch?v=iscLS9l0Xw4",
             "url2": "https://github.com/AmazonSWCollab/OpenDoors"
@@ -16,17 +23,17 @@
         },
         {
             "cover": "https://i.ibb.co/j3vY4NJ/cp-portrait-mode.png",
-            "title": "Android Phone App",
+            "title": "Android App",
             "description" : "App that lets you make colors based on RGB values. Built with Kotlin and Android Studio.",
             "url": "https://github.com/cesar-gz/Android-Mobile-Apps",
             "url2": "https://github.com/cesar-gz/Android-Mobile-Apps"
         },
         {
-            "cover": "https://i.ibb.co/7ksC1Bp/alien-invasion.jpg",
-            "title": "Alien-Invasion Game",
-            "description" : "Game with sound, scoreboard, and difficulty built with Python and Pygame.",
-            "url" : "https://www.youtube.com/watch?v=YphXA6GJGxc",
-            "url2": "https://github.com/cesar-gz/Alien-Invasion"
+            "cover": "https://i.ibb.co/zHxpj8y/titan-Radio.jpg",
+            "title": "Music Player",
+            "description" : "Web app with a schedule and music. Built with JavaScript, HTML, and CSS.",
+            "url" : "https://titanradio.org/station-mix/",
+            "url2": "https://github.com/Angel-Armendariz/TitanRadioLivePlayer"
         }
     ]
 }

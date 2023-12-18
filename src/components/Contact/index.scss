@@ -1,6 +1,5 @@
 .contact-form{
     width: 100%;
-    margin-top: 20px;
 
     ul{
         padding: 0;
@@ -37,25 +36,27 @@
         width: 100%;
         border: 0;
         background: #95a8b0;
-        height: 50px;
-        font-size: 16px;
+        height: 40px;
+        font-size: 14px;
         color: #eef2f3;
         padding: 0 20px;
         box-sizing: border-box;
         border: 1px solid #eef2f3;
+        border-radius: 4px;
     }
 
     textarea{
         width: 100%;
         border: 0;
         background: #95a8b0;
-        height: 50px;
-        font-size: 16px;
+        height: 38px;
+        font-size: 14px;
         color: #fff;
         padding: 20px;
-        min-height: 150px;
+        min-height: 130px;
         box-sizing: border-box;
         border: 1px solid #eef2f3;
+        border-radius: 4px;
     }
 
     .flat-button{
@@ -75,6 +76,8 @@
             color: #333;
             cursor: pointer;
             text-decoration: underline;
+            transition: all 0.9s cubic-bezier(0.645, 0.045, 0.355, 1);
+            transform: translateY(-3px);
           }
     }
 }

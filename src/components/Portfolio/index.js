@@ -7,7 +7,6 @@ import portfolioData from '../../data/portfolio.json';
 const Portfolio = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate');
-    console.log(portfolioData);
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -18,6 +17,21 @@ const Portfolio = () => {
             clearTimeout(timer);
         }
     });
+
+    const scrollLeft = () => {
+      document.querySelector('.images-container').scrollBy({
+          left: -window.innerWidth / 2, // Adjust the scroll distance as needed
+          behavior: 'smooth'
+      });
+    };
+
+    const scrollRight = () => {
+        document.querySelector('.images-container').scrollBy({
+            left: window.innerWidth / 2, // Adjust the scroll distance as needed
+            behavior: 'smooth'
+        });
+    };
+
 
     const renderPortfolio = (portfolio) => {
         return(
@@ -66,7 +80,11 @@ const Portfolio = () => {
                         idx={15}
                     />
                 </h1>
-                <div>{renderPortfolio(portfolioData.portfolio)}</div>
+                <div className="portfolio-navigation">
+                  <button className="left-arrow" onClick={scrollLeft}>&#8592;</button>
+                  <div>{renderPortfolio(portfolioData.portfolio)}</div>
+                  <button className="right-arrow" onClick={scrollRight}>&#8594;</button>
+                </div>
             </div>
             <Loader type="pacman"/>
         </>
