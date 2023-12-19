@@ -3,9 +3,6 @@ import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Logo from './Logo';
 import Loader from 'react-loaders';
-import About from '../About';
-import Portfolio from '../Portfolio';
-import Contact from '../Contact';
 import resume from '../../assets/images/resume.pdf';
 
 const Home = () => {
@@ -35,15 +32,9 @@ const Home = () => {
                     {subArray}
                 </h1>
                 <button className='flat-button' onClick={() => window.open(resume)}>View Résumé</button>
-                <div className="waves"></div>
+              {/*<div className="waves"></div>*/}
             </div>
           <Logo />
-        </div>
-
-        <div className="vertical-container">
-          <About />
-          <Portfolio />
-          <Contact />
         </div>
         <Loader type="pacman" />
         </>
