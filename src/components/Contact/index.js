@@ -53,7 +53,7 @@ const Contact = () => {
                     <form ref={form} onSubmit={sendEmail}>
                         <ul>
                             <li className='half'>
-                                <input type="text" name="name" placeholder="Name" required />
+                                <input type="text" name="name" placeholder="Name" required autoComplete="true"/>
                             </li>
                             <li className='half'>
                                 <input
@@ -61,6 +61,7 @@ const Contact = () => {
                                 name="email"
                                 placeholder="Email"
                                 required
+                                autoComplete="true"
                                 />
                             </li>
                             <li>

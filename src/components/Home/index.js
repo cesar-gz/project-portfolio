@@ -8,7 +8,6 @@ import Portfolio from '../Portfolio';
 import Contact from '../Contact';
 import resume from '../../assets/images/resume.pdf';
 
-
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = ['C', 'e', 's', 'a', 'r', ' ', 'G', 'u', 't', 'i', 'e', 'r', 'r', 'e', 'z'];
@@ -38,15 +37,14 @@ const Home = () => {
                 <button className='flat-button' onClick={() => window.open(resume)}>View Résumé</button>
                 <div className="waves"></div>
             </div>
-            <Logo />
+          <Logo />
         </div>
 
-        <div class="vertical-container">
+        <div className="vertical-container">
           <About />
           <Portfolio />
           <Contact />
         </div>
-
         <Loader type="pacman" />
         </>
     )

@@ -54,7 +54,7 @@
     }
 
     h1{
-        color:#eef2f3;
+        color:#dce3e6;
         font-size: 55px;
         margin: 0;
         font-family: 'Cardo';
@@ -100,10 +100,30 @@
 
 }
 
-/* Media Query for smaller screens */
+@media (max-width: 1025px) {
+  .home-page {
+
+    h1 {
+      font-size: 45px;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .home-page {
+
+    h1 {
+      font-size: 35px;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .home-page {
     flex-direction: column;
-    /* This will stack children vertically */
+
+    h1{
+        font-size: 35px;
+    }
   }
 }
