@@ -9,11 +9,12 @@
         margin-right: 30px;
 
         .waves {
-            margin-top: -55px;
+            margin-top: -135px;
+            margin-left: 220px;
             width: 80%;
             height: 250px;
-            background-image: url('../../assets/images/waves.png');
-            background-size: 100%;
+            background-image: url('../../assets/images/sora.png');
+            background-size: 40%;
             background-attachment: local, scroll;
             background-position: 15px;
             background-repeat: no-repeat;
@@ -79,12 +80,12 @@
         white-space: nowrap;
 
         &:hover{
-            background: #b9c6cb;
+            background: rgba(41, 194, 255, 0.321);
             font-weight: 300;
-            color: #333;
+            color: #eef2f3;
             text-decoration: underline;
             cursor: pointer;
-            transition: all 0.9s cubic-bezier(0.645, 0.045, 0.355, 1);
+            transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
             transform: translateY(-3px);
         }
     }

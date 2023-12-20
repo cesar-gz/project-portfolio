@@ -16,7 +16,7 @@
     }
 
     .image-box{
-        border: 1px solid #eef2f3;
+        border: 1px solid #8399a2;
         position: relative;
         //flex: 1 1 35%;      commented out for carousel
         //flex: 0 0 auto;
@@ -38,7 +38,7 @@
         }
 
         .content{
-            border-top: 1px solid #eef2f3;
+            border-top: 1px solid #8399a2;
             position: absolute;
             width: 100%;
             z-index: 3;
@@ -46,10 +46,11 @@
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
             background: linear-gradient(
                 0deg,
-                #95a8b0,
-                #95a8b0
+                rgba(121, 68, 154, 0.13),
+                rgba(41, 194, 255, 0.321)
             );
             bottom: -70px;
+            height: calc(48.5% - 20px);
         }
 
         .title{
@@ -85,7 +86,7 @@
             border-radius: 4px;
             font-size: 12px;
             color: #fff;
-            background: #95a8b0;
+            background: rgba(41, 194, 255, 0.321);
             text-transform: uppercase;
             font-weight: 100;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -96,9 +97,10 @@
         }
 
         .btn:hover{
-            transform: translateY(-3px);
-            background: #cad4d8;
-            color: #333;
+            transform: translateY(-7px);
+            //background: #8399a2;
+            //color: #000;
+            //border: 2px solid #000;
         }
 
         &:after{
@@ -127,7 +129,7 @@
         }
 
         &:hover .title{
-            color: #95a8b0;
+            color: #dce3e6;
         }
     }
 
@@ -145,7 +147,7 @@
         z-index: 4;
         font-size: 14px;
         color: #eef2f3;
-        background: #95a8b0;
+        background: transparent;
         letter-spacing: 2px;
         text-decoration: none;
         padding: 4px 8px;
@@ -155,8 +157,8 @@
         margin-top: 10px;
 
         &:hover {
-            background: #b9c6cb;
-            color: #333;
+            background: rgba(41, 194, 255, 0.321);
+            color: #eef2f3;
             cursor: pointer;
             box-shadow: -1px 1px 3px #000000;
           }

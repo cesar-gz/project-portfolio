@@ -1,6 +1,6 @@
 .nav-bar{
-    background: #95a8b0;
-    width: 53px;
+    background: rgba(41, 196, 255, 0.13);
+    width: 52px;
     height: 100%;
     position: fixed;
     top: 0;
@@ -48,7 +48,7 @@
 
             //setting the color for our links
             &:hover{
-                color: #dce3e6;
+                color: #eef2f3;
 
                 svg{
                     opacity: 0;
@@ -100,7 +100,7 @@
 
         a.active{
             svg{
-                color:#dce3e6;
+                color:#ffffff;
             }
         }
     }
