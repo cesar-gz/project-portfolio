@@ -1,16 +1,16 @@
 .logo-container {
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 25%;
-  height: 450px;
+  height: 500px;
 }
 
 .logo-container img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  border: 1px solid #cad4d8;
-  animation: fadeIn 1s 3.8s backwards;
+  border: 1px solid rgba(41, 194, 255, 0.321);
+  animation: fadeIn 4s 5s backwards;
   box-shadow: 0px 0px 5px #000000;
 }

@@ -3,7 +3,8 @@ $primary-color: #ffd700;
 @import '~loaders.css/src/animations/pacman.scss';
 
 .loader-active{
-    display: block;
+    display: none;
+    /*
     position: absolute;
     left: 0;
     right: 0;
@@ -14,4 +15,5 @@ $primary-color: #ffd700;
     height: 50px;
     animation: fadeOut 1s 1s;
     animation-fill-mode: forwards;
+    */
 }

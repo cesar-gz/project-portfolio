@@ -2,7 +2,6 @@ import './index.scss'
 import { useEffect, useState } from 'react'
 import { useRef } from 'react'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
-import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import emailjs from '@emailjs/browser'
 
@@ -95,7 +94,6 @@ const Contact = () => {
                     </MapContainer>
                 </div>
             </div>
-            <Loader type="pacman" />
         </>
     )
 }

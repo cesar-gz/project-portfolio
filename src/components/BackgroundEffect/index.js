@@ -30,7 +30,7 @@ const BackgroundEffect = () => {
       step();
 
       window.onresize = resize;
-      canvas.onmousemove = onMouseMove;
+      //canvas.onmousemove = onMouseMove;
       canvas.ontouchmove = onTouchMove;
       canvas.ontouchend = onMouseLeave;
       document.onmouseleave = onMouseLeave;
@@ -200,7 +200,7 @@ const BackgroundEffect = () => {
         pointerY = y;
 
       }
-
+/*
       function onMouseMove( event ) {
 
         touchInput = false;
@@ -208,7 +208,7 @@ const BackgroundEffect = () => {
         movePointer( event.clientX, event.clientY );
 
       }
-
+*/
       function onTouchMove( event ) {
 
         touchInput = true;

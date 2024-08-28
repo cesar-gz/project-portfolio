@@ -5,21 +5,8 @@
       justify-content: center; /* This will horizontally center the children */
 
     .text-zone{
-        width: 40%;
-        margin-right: 30px;
-
-        .waves {
-            margin-top: -135px;
-            margin-left: 220px;
-            width: 80%;
-            height: 250px;
-            background-image: url('../../assets/images/sora.png');
-            background-size: 40%;
-            background-attachment: local, scroll;
-            background-position: 15px;
-            background-repeat: no-repeat;
-            animation: fadeIn 1s 3.8s backwards;
-          }
+        width: 25%;
+        //margin-right: 30px;
     }
 
     .job-title{
@@ -29,7 +16,7 @@
         font-size: 18px;
         font-family: 'Inter';
         letter-spacing: 1px;
-        animation: fadeIn 1s 3.8s backwards;
+        animation: fadeIn 0.5s 3.8s backwards;
 
         .text-animate-hover {
           &:hover {
@@ -101,11 +88,41 @@
 
 }
 
+@media (max-width: 1550px) {
+  .home-page {
+
+    h1 {
+      font-size: 45px;
+    }
+
+    .text-zone {
+      width: 30%;
+    }
+  }
+}
+
+@media (max-width: 1550px) {
+  .home-page {
+
+    h1 {
+      font-size: 45px;
+    }
+
+    .text-zone {
+      width: 35%;
+    }
+  }
+}
+
 @media (max-width: 1025px) {
   .home-page {
 
     h1 {
       font-size: 45px;
+    }
+
+    .text-zone{
+        width: 40%;
     }
   }
 }
@@ -116,6 +133,10 @@
     h1 {
       font-size: 35px;
     }
+
+    .text-zone{
+        width: 45%;
+    }
   }
 }
 
@@ -125,6 +146,10 @@
 
     h1{
         font-size: 35px;
+    }
+
+    .text-zone{
+        width: 50%;
     }
   }
 }

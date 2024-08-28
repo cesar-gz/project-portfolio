@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import portfolioData from '../../data/portfolio.json';
@@ -86,7 +85,6 @@ const Portfolio = () => {
                   <button className="right-arrow" onClick={scrollRight}>&#8594;</button>
                 </div>
             </div>
-            <Loader type="pacman"/>
         </>
     );
 }

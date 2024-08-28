@@ -2,13 +2,12 @@ import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Logo from './Logo';
-import Loader from 'react-loaders';
 import resume from '../../assets/images/resume.pdf';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = ['C', 'e', 's', 'a', 'r', ' ', 'G', 'u', 't', 'i', 'e', 'r', 'r', 'e', 'z'];
-    const jobArray = ['Q', 'u', 'a', 'l', 'i', 'f', 'i','e', 'd', ' ', 'S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r'];
+    const jobArray = ['A', 'p', 'p', 'l', 'i', 'c', 'a', 't', 'i', 'o', 'n', ' ', 'S', 'e', 'c', 'u', 'r', 'i', 't', 'y', ' ', 'S', 'p', 'e', 'c', 'i', 'a', 'l', 'i', 's', 't'];
     const subArray = ['B', 'a', 'c', 'h', 'e', 'l', 'o', 'r', 's', ' ', 'i', 'n', ' ', 'C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ', 'S', 'c', 'i', 'e', 'n', 'c', 'e'];
     useEffect(() => {
         setTimeout(() => {
@@ -32,11 +31,9 @@ const Home = () => {
                     {subArray}
                 </h1>
                 <button className='flat-button' onClick={() => window.open(resume)}>View Résumé</button>
-              {/*<div className="waves"></div>*/}
             </div>
           <Logo />
         </div>
-        <Loader type="pacman" />
         </>
     )
 }

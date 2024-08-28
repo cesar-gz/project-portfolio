@@ -1,35 +1,35 @@
 {
     "portfolio": [
         {
-          "cover": "https://i.ibb.co/MVpLVkN/Screenshot-2023-12-18-121942.jpg",
+          "cover": "../../portfolio/1/covid.jpg",
           "title": "Covid Website",
           "description": "Website on Coronavirus stats. Built with Gatsby, React-Chartjs-2, and Netlify.",
           "url": "https://main--dancing-gecko-fe9278.netlify.app/",
           "url2": "https://github.com/cesar-gz/covid-website"
         },
         {
-          "cover": "https://i.ibb.co/9V71VhQ/Screenshot-2023-12-18-151634.jpg",
+          "cover": "../../portfolio/1/newsletter.jpg",
           "title": "Email Website",
           "description": "Website that emails you news. Built with Angular, Python, FastAPI, SQLite, and Raspberry Pi.",
           "url": "https://cesar-gz.github.io/newsletter/",
           "url2": "https://github.com/cesar-gz/newsletter"
         },
         {
-            "cover": "https://i.ibb.co/zHxpj8y/titan-Radio.jpg",
+            "cover": "../../portfolio/1/titan-radio.jpg",
             "title": "Music Player",
             "description" : "Web app with a schedule and music. Built with JavaScript, HTML, and CSS.",
             "url" : "https://titanradio.org/",
             "url2": "https://github.com/Angel-Armendariz/TitanRadioLivePlayer"
         },
         {
-            "cover": "https://i.ibb.co/RDt1Wjn/Screenshot-2023-12-18-154133.jpg",
+            "cover": "../../portfolio/1/cat-app.jpg",
             "title": "Android App",
             "description" : "App that creates cat memes with an API. Built with Kotlin and Android Studio.",
             "url": "https://github.com/FMZOrganization/final-project-team_02_5/tree/8470ac951e27d4b38f02e6707fab8cd2b0c1374f",
             "url2": "https://github.com/FMZOrganization/final-project-team_02_5/tree/8470ac951e27d4b38f02e6707fab8cd2b0c1374f"
         },
         {
-            "cover": "https://i.ibb.co/x2MdHXV/Open-Doors.jpg",
+            "cover": "../../portfolio/1/open-doors.jpg",
             "title": "Review Website",
             "description" : "Create, Review, Update, and Delete reviews. Built with React and MongoDB.",
             "url": "https://www.youtube.com/watch?v=iscLS9l0Xw4",
