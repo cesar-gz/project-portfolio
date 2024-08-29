@@ -43,11 +43,11 @@ const Contact = () => {
                 <h1>
                     <AnimatedLetters
                     letterClass={letterClass}
-                    strArray={['C', 'o', 'n', 't', 'a', 'c', 't']}
+                    strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'M', 'e']}
                     idx={15}
                     />
                 </h1>
-                <p style={{marginTop:'-25px'}}>Feel free to reach out if you're looking for a developer, have a question, or want to connect.</p>
+                <p>Feel free to reach out if you're looking for a developer, have a question, or want to connect.</p>
                 <div className='contact-form'>
                     <form ref={form} onSubmit={sendEmail}>
                         <ul>

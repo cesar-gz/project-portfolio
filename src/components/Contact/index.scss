@@ -35,44 +35,44 @@
     input[type='email']{
         width: 100%;
         border: 0;
-        background: rgba(41, 194, 255, 0.14);
+        background: rgb(5, 5, 63);
         height: 40px;
         font-size: 14px;
         color: #eef2f3;
         padding: 0 20px;
         box-sizing: border-box;
-        border: 1px solid #eef2f3;
-        border-radius: 4px;
+        //border: 1px solid #eef2f3;
+        border-radius: 10px;
     }
 
     textarea{
         width: 100%;
         border: 0;
-        background: rgba(41, 194, 255, 0.14);
+        background: rgb(5, 5, 63);
         height: 38px;
         font-size: 14px;
         color: #fff;
         padding: 20px;
         min-height: 130px;
         box-sizing: border-box;
-        border: 1px solid #eef2f3;
-        border-radius: 4px;
+        //border: 1px solid #eef2f3;
+        border-radius: 10px;
     }
 
     .flat-button{
         color: #eef2f3;
-        background: transparent;
+        background: rgb(5, 5, 63);
         font: 11px;
         letter-spacing: 2px;
         text-decoration: none;
-        padding: 8px 10px;
-        border: 1px solid #eef2f3;
+        padding: 10px 12px;
+        border: 0;
         float: right;
         border-radius: 4px;
         margin-top: 10px;
 
         &:hover {
-            background: rgba(41, 194, 255, 0.321);
+            //background: rgba(41, 194, 255, 0.321);
             color: #eef2f3;
             cursor: pointer;
             text-decoration: underline;
@@ -84,7 +84,7 @@
 
 .info-map{
     position: fixed;
-    background-color: #b9c6cb;
+    background-color: rgb(5, 5, 63);
     left: 63%;
     z-index: 999999;
     width: 200px;
@@ -105,8 +105,9 @@
 }
 
 .map-wrap{
-    border: rgba(41, 194, 255, 0.321) 2px solid;
-    background: #95a8b0;
+    //border: rgba(41, 194, 255, 0.321) 2px solid;
+    border-radius: 10px;
+    background: transparent;
     position: absolute;
     left: 55%;
     width: 32%;
@@ -115,10 +116,14 @@
 }
 
 .leaflet-container{
-    width: 100%;
-    height: 100%;
-    position: relative;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 70%;
     opacity: 0;
     animation: backInRight 2s 1.2s;
     animation-fill-mode: forwards;
+    border-radius: 10px;
 }

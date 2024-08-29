@@ -1,9 +1,9 @@
 import React, { useState, useRef } from 'react';
-import song from '../../assets/audio/kh2.mp3'
-import playButton from '../../assets/images/sora3.png'
+import song from '../../assets/audio/kh2.mp3';
+import playButton from '../../assets/images/music-off.png'; // Default play image
+import pauseButton from '../../assets/images/music-on.png'; // New pause image
 
 export default function MusicPlayer() {
-
   const [isPlaying, setPlaying] = useState(false);
   const audioRef = useRef(null);
 
@@ -18,20 +18,26 @@ export default function MusicPlayer() {
 
   return (
     <div>
-      <button onClick={handleClick} className="Play"
+      <button
+        onClick={handleClick}
+        className="Play"
         style={{
           backgroundColor: 'transparent',
           border: 'none',
           color: 'transparent',
           marginLeft: '4px',
           cursor: 'pointer'
-        }}>
-        {isPlaying ? 'Pause' : 'Play'}
-        <img src={playButton} className ="Play-Btn" alt="play-button"></img>
+        }}
+      >
+        <img
+          src={isPlaying ? pauseButton : playButton}
+          className="Play-Btn"
+          alt={isPlaying ? 'pause-button' : 'play-button'}
+        />
       </button>
-        <audio ref={audioRef} autoPlay={isPlaying}>
-          <source src={song} type="audio/mpeg" />
-        </audio>
+      <audio ref={audioRef} autoPlay={isPlaying}>
+        <source src={song} type="audio/mpeg" />
+      </audio>
     </div>
-  )
+  );
 }
