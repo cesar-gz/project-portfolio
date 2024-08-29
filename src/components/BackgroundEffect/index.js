@@ -3,8 +3,8 @@ import './index.scss';
 
 const BackgroundEffect = () => {
   useEffect(() => {
-      const STAR_COLOR = '#fff';
-      const STAR_SIZE = 3;
+      const STAR_COLOR = '#FFD700';
+      const STAR_SIZE = 1.25;
       const STAR_MIN_SCALE = 0.2;
       const OVERFLOW_THRESHOLD = 50;
       const STAR_COUNT = ( window.innerWidth + window.innerHeight ) / 8;

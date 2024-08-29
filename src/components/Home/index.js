@@ -7,7 +7,12 @@ import resume from '../../assets/images/resume.pdf';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = ['C', 'e', 's', 'a', 'r', ' ', 'G', 'u', 't', 'i', 'e', 'r', 'r', 'e', 'z'];
-    const jobArray = ['A', 'p', 'p', 'l', 'i', 'c', 'a', 't', 'i', 'o', 'n', ' ', 'S', 'e', 'c', 'u', 'r', 'i', 't', 'y', ' ', 'S', 'p', 'e', 'c', 'i', 'a', 'l', 'i', 's', 't'];
+    const jobArray = [
+      'W', 'e', 'b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r',
+      ' ', 'a', 'n', 'd', ' ',
+      'S', 'e', 'c', 'u', 'r', 'i', 't', 'y', ' ',
+      'S', 'p', 'e', 'c', 'i', 'a', 'l', 'i', 's', 't'
+    ];
     const subArray = ['B', 'a', 'c', 'h', 'e', 'l', 'o', 'r', 's', ' ', 'i', 'n', ' ', 'C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ', 'S', 'c', 'i', 'e', 'n', 'c', 'e'];
     useEffect(() => {
         setTimeout(() => {

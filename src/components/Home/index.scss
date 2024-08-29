@@ -20,13 +20,13 @@
 
         .text-animate-hover {
           &:hover {
-            color: #415a77;
+            color: #FFD700;
           }
         }
       }
 
     .sub-array{
-      color: #415a77;
+      color: #FFD700;
       font-weight: 400;
       font-size: 16px;
       font-family: 'Inter';
@@ -52,22 +52,22 @@
 
     .flat-button{
         color:#eef2f3;
-        background-color: transparent;
+        background-color: rgba(70, 41, 255, 0.13);
         font-size: 12px;
         font-weight: 300;
         letter-spacing: 1px;
         font-family: 'Cardo';
         text-decoration: none;
-        padding: 8px 16px;
-        border: 1px solid #eef2f3;
+        padding: 8px 20px;
+        border: transparent;
         border-radius: 4px;
-        margin-top: 25px;
+        margin-top: 18px;
         margin-right: 20px;
         animation: fadeIn 1s 3.8s backwards;
         white-space: nowrap;
 
         &:hover{
-            background: rgba(41, 194, 255, 0.321);
+            background: rgba(70, 41, 255, 0.13);
             font-weight: 300;
             color: #eef2f3;
             text-decoration: underline;
