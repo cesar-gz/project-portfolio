@@ -3,12 +3,6 @@
  * (c) 2010-2023 Vladimir Agafonkin, (c) 2010-2011 CloudMade
  */
 
-/*!
-	Copyright (c) 2018 Jed Watson.
-	Licensed under the MIT License (MIT), see
-	http://jedwatson.github.io/classnames
-*/
-
 /**
  * @license React
  * react-dom.production.min.js
@@ -50,7 +44,7 @@
  */
 
 /**
- * @remix-run/router v1.6.3
+ * @remix-run/router v1.19.1
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -61,7 +55,7 @@
  */
 
 /**
- * React Router DOM v6.13.0
+ * React Router DOM v6.26.1
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -72,7 +66,7 @@
  */
 
 /**
- * React Router v6.13.0
+ * React Router v6.26.1
  *
  * Copyright (c) Remix Software Inc.
  *
