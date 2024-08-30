@@ -33,8 +33,26 @@
     }
 }
 
+@media (max-width: 1210px) {
+
+  .about-page .text-zone{
+      height: 70%;
+      overflow-y: auto;
+      scrollbar-width: none;
+  }
+
+  .about-page .text-zone::-ms-scrollbar {
+      display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .about-page {
     flex-direction: column;
+    margin-top: 70px;
+  }
+
+  .logo-container{
+    margin-bottom: 50px;
   }
 }

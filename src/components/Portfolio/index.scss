@@ -1,7 +1,7 @@
 .portfolio-page{
     //width: calc(100% - 420px);
-    width: 85%;
-    height: 100%;
+    width: 75%;
+    height: auto;
 
     .images-container{
         display: flex;
@@ -78,11 +78,11 @@
             margin-right: 8px;
             padding: 10px;
             height: 40px;
-            border: 2px solid rgba(41, 194, 255, 0.321);
-            border-radius: 4px;
+            border: none;
+            border-radius: 10px;
             font-size: 12px;
             color: #fff;
-            background: rgba(41, 194, 255, 0.321);
+            background: rgb(5, 5, 63);
             text-transform: uppercase;
             font-weight: 100;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -97,6 +97,7 @@
             //background: #8399a2;
             //color: #000;
             //border: 2px solid #000;
+            text-decoration: underline;
         }
 
         &:after{
@@ -141,20 +142,20 @@
         top: 42%;
         transform: translateY(-50%);
         z-index: 4;
-        font-size: 14px;
-        color: #eef2f3;
+        font-size: 18px;
+        color: #FFD700;
         background: transparent;
         letter-spacing: 2px;
         text-decoration: none;
         padding: 4px 8px;
-        border: 1px solid rgba(41, 194, 255, 0.321);
+        border: none;
         float: right;
-        border-radius: 4px;
+        border-radius: 10px;
         margin-top: 10px;
+        background: rgb(5, 5, 63);
 
         &:hover {
-            background: rgba(41, 194, 255, 0.321);
-            color: #eef2f3;
+            color: #fff;
             cursor: pointer;
             box-shadow: -1px 1px 3px #000000;
           }
@@ -167,4 +168,16 @@
         right: -40px;
       }
     }
+}
+
+@media (max-width: 925px) {
+
+  .portfolio-page .text-zone {
+    overflow-y: hidden;
+    scrollbar-width: none;
+  }
+
+  .portfolio-page .text-zone::-ms-scrollbar {
+    display: none;
+  }
 }

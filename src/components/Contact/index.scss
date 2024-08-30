@@ -120,10 +120,20 @@
     height: 70%;
     position: absolute;
     top: 15%;
-    left: 5%;
+    left: 15%;
     width: 70%;
     opacity: 0;
-    animation: backInRight 2s 1.2s;
+    animation: backInLeft 2s 1.2s;
     animation-fill-mode: forwards;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .contact-page .text-zone {
+
+    h1 {
+      font-size: 30px;
+    }
+
+  }
 }
