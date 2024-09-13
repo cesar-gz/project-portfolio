@@ -5,6 +5,28 @@ import AnimatedLetters from '../AnimatedLetters'
 import emailjs from '@emailjs/browser'
 import DOMPURIFY from 'dompurify'
 
+/*
+// BuggyCounter component for testing error boundary
+const BuggyCounter = () => {
+  const [counter, setCounter] = useState(0);
+
+  const handleClick = () => {
+    setCounter(prevCounter => {
+      if (prevCounter > 4) throw new Error('I crashed!');
+      return prevCounter + 1;
+    });
+  };
+
+  return (
+    <div style={{ marginBottom: '20px', padding: '10px', border: '1px solid #ccc', borderRadius: '5px' }}>
+      <h3>Error Boundary Test Counter</h3>
+      <p>Click the number to increment. It will error after 5.</p>
+      <h1 onClick={handleClick} style={{ cursor: 'pointer' }}>{counter}</h1>
+    </div>
+  );
+};
+*/
+
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const form = useRef()
@@ -112,6 +134,10 @@ const Contact = () => {
                     />
                 </h1>
                 <p>Feel free to reach out if you have a question.</p>
+
+                {/* <BuggyCounter /> */}
+
+
                 <div className='contact-form'>
                     <form ref={form} onSubmit={sendEmail}>
                         <ul>
