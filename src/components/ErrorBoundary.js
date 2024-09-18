@@ -20,7 +20,7 @@ class ErrorBoundary extends React.Component{
 
   render() {
     if (this.state.hasError) {
-      // you can render any custom fallback UI here
+      // I can render any custom fallback UI here
       return (
         <div style={{
           display: 'flex',
@@ -37,7 +37,9 @@ class ErrorBoundary extends React.Component{
             alt="error illustration"
             style={{ maxWidth: '25%', height: '25%' }}
           />
-          <p style={{color:'white', fontSize: '1.4em'}}>I am sorry for the inconvenience. Please try again later or leave me a message in my contact form.</p>
+          <p style={{ color: 'white', fontSize: '1.4em' }}>
+            I am sorry for the inconvenience. Please try again later or leave me a message in my contact form.
+          </p>
         </div>
       );
     }
