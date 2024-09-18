@@ -1,0 +1,48 @@
+.blog-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+
+  .page-title {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+
+  .blog-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+
+    .blog-post-row {
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #f0f0f0;
+      }
+
+      td {
+        padding: 1rem;
+      }
+
+      .post-date {
+        font-size: 0.9rem;
+        color: #666;
+        white-space: nowrap;
+      }
+
+      .post-title {
+        a {
+          color: #333;
+          text-decoration: none;
+          font-weight: 600;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
