@@ -1,7 +1,10 @@
 import './index.scss'
-import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import me from '../../assets/images/me.jpg'
+import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMugSaucer} from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -52,8 +55,17 @@ const About = () => {
               <div className="logo-container">
                   <img src={me} alt="me"/>
               </div>
+              <div>
+                <Link
+                  exact="true"
+                  activeclassname="active"
+                  className="to-be-determined"
+                  to="/blog"
+                >
+                  <FontAwesomeIcon icon={faMugSaucer} color="#8399a2" /> Blog
+                </Link>
+              </div>
             </div>
-
         </>
     )
 }

@@ -30,7 +30,7 @@ const Blog = () => {
             <tr key={post.id} className='blog-post-row'>
               <td className='post-date'>{formatDate(post.date)}</td>
               <td className='post-title'>
-                <Link to={`/blog/${post.slug}`}>{post.title}</Link>
+                  <Link to={`/blog/${post.slug}`}>{post.title}</Link>
               </td>
             </tr>
           ))}

@@ -22,7 +22,7 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/project-portfolio" element={<Home />} />
             <Route path="/otherProjects" element={<OtherProjects />} />
-            <Route exact path="/blog" element={<Blog />} />
+            <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
           </Route>
         </Routes>

@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { Link } from 'react-router-dom'
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import portfolioData from '../../data/portfolio.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCode} from '@fortawesome/free-solid-svg-icons'
 
 const Portfolio = () => {
 
@@ -61,7 +64,7 @@ const Portfolio = () => {
                         )
                     })
                 }
-            </div>
+          </div>
         );
     }
 
@@ -83,6 +86,16 @@ const Portfolio = () => {
                   <button className="left-arrow" onClick={scrollLeft}>&#8592;</button>
                   <div>{renderPortfolio(portfolioData.portfolio)}</div>
                   <button className="right-arrow" onClick={scrollRight}>&#8594;</button>
+                </div>
+                <div>
+                  <Link
+                    exact="true"
+                    activeclassname="active"
+                    className="to-be-determined"
+                    to="/otherProjects"
+                  >
+                    <FontAwesomeIcon icon={faCode} color="#8399a2" /> Other Projects
+                  </Link>
                 </div>
             </div>
         </>
